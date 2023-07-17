@@ -11,7 +11,17 @@ const Navbar = () => {
                 <div className="logo">
                     <img src={Logo} alt="" />
                 </div>
-                <ul className="nav-menu"></ul>
+                <ul className="nav-menu">
+                  <li className="nav-link">Home</li>
+                  <li className="nav-link">About</li>
+                  <li className="nav-link">Services</li>
+                  <li className="nav-link">Packages</li>
+                  <li className="nav-link">Contact</li>
+                </ul>
+                <div className="call">
+                  <h3>Call Now</h3>
+                  <p>+254 721 107062</p>
+                </div>
             </nav>
         </header>
     </>

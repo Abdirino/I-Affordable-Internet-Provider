@@ -1,0 +1,58 @@
+.footer{
+    padding: 4rem 2.2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+}
+.footer section{
+    text-align: start;
+}
+section h2{
+    font-size: 26px;
+    padding: 14px 10px;
+    color: #0339c1;
+}
+section li{
+    padding: 10px;
+    cursor: pointer;
+}
+section li:hover{
+    color: #2f4c96;
+}
+section li::marker{
+    content: '🔷';
+}
+
+.c-info{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 12px 10px;
+}
+.c-info i{
+    padding: 7px;
+    color: #0339c1;
+    font-size: 16px;
+}
+
+.copy-write{
+    background: rgba(3, 57, 193, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy-write p{
+    padding: 10px;
+}
+.copy-write .social{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+}
+.social i{
+    font-size: 19px;
+    cursor: pointer;
+}
