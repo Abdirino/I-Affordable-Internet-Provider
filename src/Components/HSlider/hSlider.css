@@ -19,7 +19,7 @@
 }
 .homeS p {
   font-size: 21px;
-  padding: 15px 10px;
+  padding: 18px 10px;
   font-weight: bold;
 }
 .homeS h1 {
@@ -27,7 +27,7 @@
   font-size: 60px;
   width: 950px;
 }
-@media(min-width: 1450px){
+@media(min-width: 1570px){
   .homeS h1{
     font-size: 85px;
     width: 1250px;
@@ -36,10 +36,6 @@
     font-size: 27px;
   }
 }
-/* .homeS h1 span {
-  color: #0339c1;
-  font-weight: bolder;
-} */
 .homeS button {
   padding: 1em 2em;
   border-radius: 3px;
@@ -50,7 +46,7 @@
   transition: all 1000ms;
   font-size: 16px;
   position: relative;
-  margin: 12px 10px;
+  margin: 18px 10px;
   overflow: hidden;
   cursor: pointer;
   border: none;
@@ -77,4 +73,29 @@ button::before {
 
 button:hover::before {
   width: 150%;
+}
+
+@media(max-width:990px){
+  .homeS p {
+    font-size: 19px;
+    padding: 15px 10px;
+    font-weight: bold;
+  }
+  .homeS h1 {
+    padding: 0 10px;
+    font-size: 48px;
+    width: auto !important;
+  }
+}
+@media(max-width:550px){
+  .homeS p {
+    font-size: 19px;
+    padding: 15px 10px;
+    font-weight: bold;
+  }
+  .homeS h1 {
+    padding: 0 10px;
+    font-size: 32px;
+    width: auto !important;
+  }
 }

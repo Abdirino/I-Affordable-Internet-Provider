@@ -1,38 +1,94 @@
-import React, { useState } from "react";
+import React from "react";
 import "./navbar.css";
-
 import Logo from "../../Images/IAffordable-Logo.png";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = React.useState(false);
 
-  const handleClick = () => setClick(!click)
-  const Close = () => setClick(false)
+  const handleClick = () => setClick(!click);
+  const Close = () => setClick(false);
+
   return (
     <>
-      <div className={click ? 'main-container' : ''} onClick={() => Close()} />
-      <header>
-        <nav onClick={(e) => e.stopPropagation()}>
+      <div className={click ? "main-container" : ""} onClick={() => Close()} />
+      <div className="header">
+        <nav className="nav" onClick={(e) => e.stopPropagation()}>
           <NavLink className="logo">
-            <div className="nav-icon" onClick={handleClick()}>
-                <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
+            <div className="nav-icon" onClick={handleClick}>
+              <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
             </div>
-            <img src={Logo} alt="" />
+            <div className="logo-img">
+              <img src={Logo} alt="website icon" />
+            </div>
           </NavLink>
-          <ul className="nav-menu">
-            <li className="nav-link">Home</li>
-            <li className="nav-link">About</li>
-            <li className="nav-link">Services</li>
-            <li className="nav-link">Packages</li>
-            <li className="nav-link">Contact</li>
+
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                About Us
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/car-listing"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Listings
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/blog"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Blog
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Contact
+              </NavLink>
+            </li>
           </ul>
-          <div className="call">
+
+          <div className="nav-phone">
             <h3>Call Now</h3>
-            <p>+254 721 107062</p>
+            <Link>
+              <p>+254 721 107062</p>
+            </Link>
           </div>
         </nav>
-      </header>
+      </div>
     </>
   );
 };

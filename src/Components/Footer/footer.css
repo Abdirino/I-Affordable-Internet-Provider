@@ -61,6 +61,7 @@ section li::marker{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem;
 }
 .copy-write p{
     padding: 10px;
