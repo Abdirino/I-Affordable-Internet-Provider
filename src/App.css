@@ -16,3 +16,42 @@
   display:none!important;
 }
 
+.button {
+  padding: 1em 2em;
+  border-radius: 3px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #0339c1;
+  transition: all 1000ms;
+  font-size: 16px;
+  position: relative;
+  margin: 18px 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  color: #ffffff;
+  transform: scale(1.02);
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #0339c1;
+  transform: skewX(40deg);
+  z-index: -1;
+  transition: width 500ms;
+  border: none;
+}
+
+.button:hover::before {
+  width: 150%;
+}
+

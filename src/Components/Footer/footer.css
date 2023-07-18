@@ -40,7 +40,7 @@ section li:hover{
     color: #2f4c96;
 }
 section li::marker{
-    content: '🔷';
+    content: '🔷 ';
 }
 
 .c-info{

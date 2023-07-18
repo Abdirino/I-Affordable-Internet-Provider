@@ -9,7 +9,7 @@ const HSlider = () => {
                 <p>Best Internet Service provider in Kenya</p>
                 <h1>Don't Suffer The Buffer,</h1>
                 <h1>Speeds Upto 1Gbps With Unlimited Data</h1>
-                <button>Learn More</button>
+                <button className='button'>Learn More</button>
             </div>
         </div>
     </>
