@@ -14,10 +14,10 @@ const Navbar = () => {
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <div className="header">
         <nav className="nav" onClick={(e) => e.stopPropagation()}>
+          <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
+          </div>
           <NavLink className="logo">
-            <div className="nav-icon" onClick={handleClick}>
-              <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
-            </div>
             <div className="logo-img">
               <img src={Logo} alt="website icon" />
             </div>
