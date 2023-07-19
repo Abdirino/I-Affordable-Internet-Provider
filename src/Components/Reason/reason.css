@@ -1,0 +1,39 @@
+.reasons{
+    padding: 1rem 3rem;
+}
+.reasons .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    gap: 1rem;
+    padding: 3.2rem 0;
+}
+.head h1{
+    font-size: 30px;
+}
+.head h1 span{
+    color: #0339c1;
+}
+
+.reason{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+.reason .re{
+    padding: 1rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border-radius: 3px;
+}
+.re h2{
+    color: #0339c1;
+    padding: 5px 0;
+    font-size: 38px;
+}
+.re p{
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 5px 0;
+}
