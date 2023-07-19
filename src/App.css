@@ -3,6 +3,9 @@
   font-family: 'Noto Serif', serif;
   font-weight: 600;
 }
+.App p{
+  font-family: 'Poppins', sans-serif;
+}
 
 ::-webkit-scrollbar{
   width:12px!important;

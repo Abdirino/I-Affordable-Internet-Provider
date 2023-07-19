@@ -4,6 +4,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 import HSlider from '../../Components/HSlider/HSlider'
 import Footer from '../../Components/Footer/Footer'
 import SAbout from '../../Components/S-About/SAbout'
+import Plan from '../../Components/Plan/Plan'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Navbar />
       <HSlider />
       <SAbout />
+      <Plan />
       <Footer />
     </>
   )
