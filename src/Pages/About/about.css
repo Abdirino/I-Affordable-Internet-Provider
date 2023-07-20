@@ -62,7 +62,7 @@
 }
 
 .team {
-  padding: 3rem 1rem;
+  padding: 3rem 1rem 1rem 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -81,6 +81,36 @@
   font-size: 17px;
   padding: 4px 0;
   width: 750px;
+}
+.people{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem 1rem 1rem 1rem;
+}
+.person{
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  padding: 1rem 1rem 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+.person img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.person h2{
+  color: #0339c1;
+  padding: 6px 0;
+}
+.person p{
+  font-weight: lighter;
+  padding: 2px 0;
 }
 
 .video-tour {
@@ -103,6 +133,9 @@
   font-size: 17px;
   padding: 4px 0;
   width: 750px;
+}
+.video{
+  width: ;
 }
 
 @media (max-width: 1090px) {

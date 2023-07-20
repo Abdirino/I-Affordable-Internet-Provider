@@ -6,7 +6,7 @@ import Footer from "../../Components/Footer/Footer";
 import aboutIMG from "../../Images/IAffordable-About.jpg";
 import Reason from "../../Components/Reason/Reason";
 
-import Person1 from "../../Images/our1.jpg";
+import person1 from '../../Images/Face 1.jpg'
 
 const About = () => {
   return (
@@ -47,6 +47,28 @@ const About = () => {
           to delivering reliable and high-speed internet solutions, ensuring
           seamless connectivity for all your online needs."
         </p>
+        <div className="people">
+          <div className="person">
+            <img src={person1} alt="" />
+            <h2>Abdulaziz Abdulwahid</h2>
+            <p>(Founder)</p>
+          </div>
+          <div className="person">
+            <img src={person1} alt="" />
+            <h2>Abdulaziz Abdulwahid</h2>
+            <p>(Founder)</p>
+          </div>
+          <div className="person">
+            <img src={person1} alt="" />
+            <h2>Abdulaziz Abdulwahid</h2>
+            <p>(Founder)</p>
+          </div>
+          <div className="person">
+            <img src={person1} alt="" />
+            <h2>Abdulaziz Abdulwahid</h2>
+            <p>(Founder)</p>
+          </div>
+        </div>
       </div>
       <div className="video-tour">
         <h1>
@@ -57,6 +79,9 @@ const About = () => {
           offers unbeatable value and exceptional connectivity in our latest
           video showcasing our top-notch services and satisfied customers."
         </p>
+        <video controlsList="" poster="../../Images/IAffordable Home 1.jpg" className="video">
+          <source />
+        </video>
       </div>
       <Footer />
     </>
