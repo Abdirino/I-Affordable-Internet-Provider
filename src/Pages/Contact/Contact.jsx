@@ -53,7 +53,7 @@ const Contact = () => {
           </div>
           <div className="form">
             <div className="form-img">
-              <h3>Contact With Us</h3>
+              <h3>Contact Us</h3>
               <h1>
                 Ready To Get In Touch With <span>IAffordable</span>
               </h1>
