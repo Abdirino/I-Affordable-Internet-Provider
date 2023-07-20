@@ -1,5 +1,6 @@
 .Footer{
     padding: 4rem 1rem 4rem 5rem;
+    border-top: 2px solid rgba(128, 128, 128, 0.4);
 }
 .footer{
     display: grid;
