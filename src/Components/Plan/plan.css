@@ -4,7 +4,7 @@
     transition: 0.4s ease;
 }
 .plans{
-    padding: 6rem 1rem 1rem 1rem;
+    padding: 6rem 0.7rem 1.2rem 0.7rem;
     background: rgba(202, 204, 207, 0.2);
 }
 .head{
@@ -31,13 +31,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.2rem;
+    gap: 1.4rem;
     padding:  2rem 1rem;
     display: flex;
     flex: 1 1 300px;
 }
 .plan .pack{
-    padding: 2rem 1rem;
+    padding: 2.5rem 1.2rem;
     text-align: center;
     border: 1px solid rgba(148, 147, 147, 0.4);
     transition: 0.5s ease;
@@ -163,5 +163,20 @@
     .included{
         padding: 2rem;
         background: rgba(202, 204, 207, 0.4);
+    }
+    .pack .p-head p{
+        font-weight: lighter;
+        font-size: 15px;
+    }
+}
+@media(min-width: 1670px){
+    .include-pack{
+        max-width: 70%;
+    }
+    .included{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }

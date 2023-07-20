@@ -14,7 +14,11 @@ const Footer = () => {
             </li>
             <div className="c-info">
               <i class="fa-solid fa-phone"></i>
-              <p>+254 721 107062</p>
+              <p>(1) +254 721 107062</p>
+            </div>
+            <div className="c-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(2) +254 721 261197</p>
             </div>
             <div className="c-info">
               <i class="fa-solid fa-envelope"></i>

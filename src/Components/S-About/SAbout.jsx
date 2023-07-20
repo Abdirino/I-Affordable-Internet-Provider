@@ -17,7 +17,7 @@ const SAbout = () => {
           our customers’ needs.
         </p>
         <Link to='/about'>
-          <button className="button">About Us</button>
+          <button className="button">Discover More</button>
         </Link>
       </div>
     </>

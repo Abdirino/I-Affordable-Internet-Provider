@@ -36,8 +36,12 @@ section h2{
     color: #0339c1;
 }
 section li{
-    padding: 10px;
+    padding: 10px 6px;
     cursor: pointer;
+    font-weight: lighter;
+}
+section p{
+    font-weight: lighter;
 }
 section li:hover{
     color: #2f4c96;
@@ -78,4 +82,10 @@ section li::marker{
 .social i{
     font-size: 19px;
     cursor: pointer;
+}
+@media(max-width: 1090px){
+    .copy-write{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

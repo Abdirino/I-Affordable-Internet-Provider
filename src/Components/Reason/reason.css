@@ -1,6 +1,6 @@
 .reasons{
     padding: 1rem 3rem 4rem 3rem;
-    background: black;
+    background: rgba(0, 0, 0, 0.9);
     color: white;
 }
 .reasons .head{
@@ -12,7 +12,7 @@
     padding: 3.2rem 0;
 }
 .head h1{
-    font-size: 30px;
+    font-size: 34px;
 }
 .head h1 span{
     color: #0339c1;
@@ -42,4 +42,16 @@
     font-size: 18px;
     font-weight: lighter;
     padding: 5px 0;
+}
+
+@media(min-width: 1670px){
+    .reason{
+        max-width: 70%;
+    }
+    .reasons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
