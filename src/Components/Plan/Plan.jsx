@@ -1,5 +1,6 @@
 import React from "react";
 import "./plan.css";
+import { Link } from "react-router-dom";
 
 const Plan = () => {
   return (
@@ -41,7 +42,9 @@ const Plan = () => {
               <p>/Monthly</p>
             </div>
             <div className="order">
-              <button className="button">Order This Plan</button>
+              <Link to="/contact">
+                <button className="button">Order This Plan</button>
+              </Link>
             </div>
           </div>
           <div className="pack family">
@@ -72,7 +75,9 @@ const Plan = () => {
               <p>/Monthly</p>
             </div>
             <div className="order">
-              <button className="button">Order This Plan</button>
+              <Link to="/contact">
+                <button className="button">Order This Plan</button>
+              </Link>
             </div>
           </div>
           <div className="pack">
@@ -100,7 +105,9 @@ const Plan = () => {
               <p>/Monthly</p>
             </div>
             <div className="order">
-              <button className="button">Order This Plan</button>
+              <Link to="/contact">
+                <button className="button">Order This Plan</button>
+              </Link>
             </div>
           </div>
           <div className="pack">
@@ -128,7 +135,9 @@ const Plan = () => {
               <p>/Monthly</p>
             </div>
             <div className="order">
-              <button className="button">Order This Plan</button>
+              <Link to="/contact">
+                <button className="button">Order This Plan</button>
+              </Link>
             </div>
           </div>
         </div>

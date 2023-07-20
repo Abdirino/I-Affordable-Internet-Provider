@@ -48,26 +48,11 @@ const About = () => {
           seamless connectivity for all your online needs."
         </p>
         <div className="people">
-          <div className="person">
+          {/* <div className="person">
             <img src={person1} alt="" />
             <h2>Abdulaziz Abdulwahid</h2>
             <p>(Founder)</p>
-          </div>
-          <div className="person">
-            <img src={person1} alt="" />
-            <h2>Abdulaziz Abdulwahid</h2>
-            <p>(Founder)</p>
-          </div>
-          <div className="person">
-            <img src={person1} alt="" />
-            <h2>Abdulaziz Abdulwahid</h2>
-            <p>(Founder)</p>
-          </div>
-          <div className="person">
-            <img src={person1} alt="" />
-            <h2>Abdulaziz Abdulwahid</h2>
-            <p>(Founder)</p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="video-tour">

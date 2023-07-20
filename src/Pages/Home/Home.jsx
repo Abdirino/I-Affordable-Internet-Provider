@@ -6,6 +6,7 @@ import Footer from '../../Components/Footer/Footer'
 import SAbout from '../../Components/S-About/SAbout'
 import Plan from '../../Components/Plan/Plan'
 import Reason from '../../Components/Reason/Reason'
+import Advert from '../../Components/Advert/Advert'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <SAbout />
       <Plan />
       <Reason />
+      <Advert />
       <Footer />
     </>
   )

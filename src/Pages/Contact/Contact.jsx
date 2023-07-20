@@ -12,6 +12,7 @@ const Contact = () => {
       <Navbar />
       <div className="contacts">
         <div className="contact">
+          <h1>Contact <span>Our Team</span></h1>
           <div className="contact-detail">
             <div className="c-detail">
               <div className="c-icon">
@@ -34,7 +35,7 @@ const Contact = () => {
                 <i class="fa-solid fa-envelope"></i>
               </div>
               <h2>E-Mail</h2>
-              <p>ahash@gmail.com</p>
+              <p>ahash8@gmail.com</p>
               <p>iaffordable@gmail.com</p>
             </div>
             <div className="c-detail">
@@ -55,20 +56,21 @@ const Contact = () => {
             <div className="form-img">
               <h3>Contact Us</h3>
               <h1>
-                Ready To Get In Touch With <span>IAffordable</span>
+                Ready To Get In Touch With <span>IAffordable?</span>
               </h1>
               <img src={ContactIMG} alt="" />
             </div>
             <form>
-              <input type="text" placeholder="Name*" />{" "}
-              <input type="number" placeholder="Phone*" />
-              <input type="email" placeholder="E-Mail*" />
+              <input type="text" required placeholder="Name*" />{" "}
+              <input type="number" required placeholder="Phone*" />
+              <input type="email" required placeholder="E-Mail*" />
               <textarea
-                placeholder="Your Message"
+                placeholder="Your Message*"
+                required
                 cols="30"
                 rows="10"
               ></textarea>
-              <button className="button">Send Message</button>
+              <button type="submit" className="button">Send Message</button>
             </form>
           </div>
         </div>

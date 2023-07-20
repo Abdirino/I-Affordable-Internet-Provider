@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Pages/Home/Home";
@@ -7,7 +8,6 @@ import ScrollToTop from "./ScrollToTop";
 import Contact from "./Pages/Contact/Contact";
 import Service from "./Pages/Services/Service";
 
-import React, { useState, useEffect } from "react";
 import Loader from "./Components/Loader/Loader";
 
 function App() {
