@@ -2,6 +2,7 @@
   text-align: center;
   font-family: 'Noto Serif', serif;
   font-weight: 600;
+  overflow-x: hidden;
 }
 .App p{
   font-family: 'Poppins', sans-serif;

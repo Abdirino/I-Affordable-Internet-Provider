@@ -6,8 +6,6 @@ import Footer from "../../Components/Footer/Footer";
 import aboutIMG from "../../Images/IAffordable-About.jpg";
 import Reason from "../../Components/Reason/Reason";
 
-import person1 from '../../Images/Face 1.jpg'
-
 const About = () => {
   return (
     <>
