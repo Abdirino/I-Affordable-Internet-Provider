@@ -4,7 +4,7 @@
   transition: 0.4s ease;
 }
 .H-slider1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)),
+  background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
     url(../../Images/IAffordable\ Home\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -18,7 +18,7 @@
   animation: kenburns-top-right 5s infinite ease-out both; */
 }
 .H-slider2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)),
+  background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
     url(../../Images/IAffordable\ Home\ 2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -32,7 +32,7 @@
   animation: kenburns-top-right 5s infinite ease-out both; */
 }
 .H-slider3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)),
+  background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
     url(../../Images/IAffordable\ Home\ 3.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -85,12 +85,12 @@
 }
 .homeS p {
   font-size: 21px;
-  padding: 18px 10px;
+  padding: 15px 10px;
   font-weight: bold;
 }
 .homeS h1 {
   padding: 0 10px;
-  font-size: 65px;
+  font-size: 60px;
   width: 950px;
 }
 @media (min-width: 1600px) {
@@ -126,4 +126,10 @@
     font-size: 38px;
     width: auto !important;
   }
+}
+
+.slick-dots li button:before {
+  font-size: 18px !important;
+  top: -50px !important;
+  color: white !important;
 }

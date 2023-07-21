@@ -10,8 +10,11 @@ import { Link } from "react-router-dom";
 const HSlider = () => {
   const settings = {
     infinite: true,
+    dots: true,
     autoplay: true,
-    speed: 1200,
+    swipeToSlide: true,
+    speed: 800,
+    autoplaySpeed: 6000,
     fade: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -22,9 +25,8 @@ const HSlider = () => {
         <Slider {...settings}>
           <div>
             <div className="H-slider1">
-              <div>
                 <div className="homeS">
-                  <p>Best Internet Service provider in Kenya</p>
+                  <p>Best-in-Class Internet Solutions Provider</p>
                   <h1>Don't Suffer The Buffer,</h1>
                   <h1>Speeds Upto 1Gbps With Unlimited Data</h1>
                   <div className="perks">
@@ -34,43 +36,38 @@ const HSlider = () => {
                     <button className="button">Discover More</button>
                   </Link>
                 </div>
-              </div>
             </div>
           </div>
 
           <div>
             <div className="H-slider2">
-              <div>
                 <div className="homeS">
-                  <p>Best Internet Service provider in Kenya</p>
-                  <h1>Don't Suffer The Buffer,</h1>
-                  <h1>Speeds Upto 1Gbps With Unlimited Data</h1>
+                  <p>Affordable and Reasonable Internet Plans</p>
+                  <h1>Quality Home Connection</h1>
+                  <h1>With Reasonable And Affordable Plans</h1>
                   <div className="perks">
                     <li></li>
                   </div>
-                  <Link to="/about">
-                    <button className="button">Discover More</button>
+                  <Link to="/package">
+                    <button className="button">Explore Plans</button>
                   </Link>
                 </div>
-              </div>
             </div>
           </div>
 
           <div>
             <div className="H-slider3">
-              <div>
                 <div className="homeS">
-                  <p>Best Internet Service provider in Kenya</p>
-                  <h1>Don't Suffer The Buffer,</h1>
-                  <h1>Speeds Upto 1Gbps With Unlimited Data</h1>
+                  <p> High-End Internet Service Company</p>
+                  <h1>Premier Services</h1>
+                  <h1>Designed To Elevate Your Experience</h1>
                   <div className="perks">
                     <li></li>
                   </div>
-                  <Link to="/about">
-                    <button className="button">Discover More</button>
+                  <Link to="/service">
+                    <button className="button">Our Services</button>
                   </Link>
                 </div>
-              </div>
             </div>
           </div>
         </Slider>
