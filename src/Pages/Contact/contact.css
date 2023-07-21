@@ -28,7 +28,7 @@
   gap: 1.4rem;
 }
 .contact-detail .c-detail {
-  padding: 15px 10px;
+  padding: 1.3rem;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   border-radius: 3px;
   text-align: center;
@@ -69,7 +69,7 @@
 }
 
 .form {
-  padding: 3rem 1rem;
+  padding: 3rem 0.8rem;
   text-align: center;
   display: flex;
   align-items: center;
@@ -78,30 +78,30 @@
 .form form {
   display: flex;
   flex-direction: column;
-  flex: 1 1 500px;
+  flex: 1 1 400px;
 }
 form input {
-  width: 95%;
+  width: 100%;
   padding: 1rem;
   font-size: 19px;
   background: rgba(3, 57, 193, 0.15);
   border: none;
   border-radius: 3px;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 form textarea {
-  width: 95%;
+  width: 100%;
   padding: 1rem;
   font-size: 19px;
   background: rgba(3, 57, 193, 0.15);
   border: none;
   border-radius: 3px;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .form-img {
   display: flex;
-  flex: 1 1 500px;
+  flex: 1 1 400px;
   border-radius: 3px;
   flex-direction: column;
   text-align: start;

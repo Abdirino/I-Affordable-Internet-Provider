@@ -14,7 +14,7 @@ const HSlider = () => {
     autoplay: true,
     swipeToSlide: true,
     speed: 800,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 5300,
     fade: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -25,54 +25,49 @@ const HSlider = () => {
         <Slider {...settings}>
           <div>
             <div className="H-slider1">
-                <div className="homeS">
-                  <p>Best-in-Class Internet Solutions Provider</p>
-                  <h1>Don't Suffer The Buffer,</h1>
-                  <h1>Speeds Upto 1Gbps With Unlimited Data</h1>
-                  <div className="perks">
-                    <li></li>
-                  </div>
-                  <Link to="/about">
-                    <button className="button">Discover More</button>
-                  </Link>
+              <div className="homeS">
+                <p>Best-in-Class Internet Service Provider</p>
+                <h1>Don't Suffer The Buffer,</h1>
+                <h1>Speeds Upto 1Gbps With Unlimited Data</h1>
+                <div className="perks">
+                  <ul>
+                    <li>Free Installation</li>
+                    <li>Internet Service Solutions</li>
+                    <li>Top Quality Service With Affordable Pricing</li>
+                    <li>Live Video Streaming With Ultra Fast Speed</li>
+                  </ul>
                 </div>
+              </div>
             </div>
           </div>
 
           <div>
             <div className="H-slider2">
-                <div className="homeS">
-                  <p>Affordable and Reasonable Internet Plans</p>
-                  <h1>Quality Home Connection</h1>
-                  <h1>With Reasonable And Affordable Plans</h1>
-                  <div className="perks">
-                    <li></li>
-                  </div>
-                  <Link to="/package">
-                    <button className="button">Explore Plans</button>
-                  </Link>
-                </div>
+              <div className="homeS">
+                <p>Affordable High-Speed Connections</p>
+                <h1>Quality Home Connection</h1>
+                <h1>With Affordable Budget-Friendly Plans</h1>
+                <Link to="/package">
+                  <button className="button">Explore Plans</button>
+                </Link>
+              </div>
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <div className="H-slider3">
-                <div className="homeS">
-                  <p> High-End Internet Service Company</p>
-                  <h1>Premier Services</h1>
-                  <h1>Designed To Elevate Your Experience</h1>
-                  <div className="perks">
-                    <li></li>
-                  </div>
-                  <Link to="/service">
-                    <button className="button">Our Services</button>
-                  </Link>
-                </div>
+              <div className="homeS">
+                <p> High-End Internet Service Company</p>
+                <h1>Premier Services</h1>
+                <h1>Designed To Elevate Your Experience</h1>
+                <Link to="/package">
+                  <button className="button">Our Services</button>
+                </Link>
+              </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
       </div>
-      <div className="H-perks"></div>
     </>
   );
 };

@@ -1,5 +1,6 @@
-*{
-  margin: 0; padding: 0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   transition: 0.4s ease;
 }
@@ -84,14 +85,29 @@
   text-align: start;
 }
 .homeS p {
-  font-size: 21px;
+  font-size: 19px;
   padding: 15px 10px;
   font-weight: bold;
 }
 .homeS h1 {
   padding: 0 10px;
-  font-size: 60px;
+  font-size: 53px;
   width: 950px;
+}
+.homeS .button {
+  margin: 25px 10px !important;
+}
+.homeS .perks ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  /* align-items: center; */
+  text-align: start;
+  padding: 6px 40px;
+  font-weight: lighter;
+}
+.perks ul li::marker {
+  content: "🔷 ";
 }
 @media (min-width: 1600px) {
   .homeS h1 {
@@ -105,31 +121,31 @@
 
 @media (max-width: 990px) {
   .homeS p {
-    font-size: 19px;
-    padding: 15px 10px;
-    font-weight: bold;
-  }
-  .homeS h1 {
-    padding: 0 10px;
-    font-size: 48px;
-    width: auto !important;
-  }
-}
-@media (max-width: 550px) {
-  .homeS p {
     font-size: 18px;
     padding: 15px 10px;
     font-weight: bold;
   }
   .homeS h1 {
     padding: 0 10px;
-    font-size: 38px;
+    font-size: 43px;
+    width: auto !important;
+  }
+}
+@media (max-width: 490px) {
+  .homeS p {
+    font-size: 17px;
+    padding: 15px 10px;
+    font-weight: bold;
+  }
+  .homeS h1 {
+    padding: 0 10px;
+    font-size: 34px;
     width: auto !important;
   }
 }
 
 .slick-dots li button:before {
-  font-size: 18px !important;
+  font-size: 20px !important;
   top: -50px !important;
   color: white !important;
 }

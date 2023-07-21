@@ -12,6 +12,9 @@
   width:12px!important;
   height:15px!important;
 }
+::-webkit-scrollbar-track{
+  background: rgba(0, 0, 0, 0.1);
+}
 ::-webkit-scrollbar-thumb{
   background:rgba(3, 57, 193, 0.6)!important;
   border-radius: 3px;
