@@ -5,7 +5,7 @@
     transition: 0.4s ease;
 }
 .quizzes{
-    padding: 2.4rem 1rem;
+    padding: 3.4rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,3 +23,4 @@
     width: 850px;
     padding: 7px 0;
 }
+
