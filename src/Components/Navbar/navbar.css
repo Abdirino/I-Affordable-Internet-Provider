@@ -135,9 +135,9 @@
     width: 90px; height: 40px;
   }
 }
-@media(min-width: 1670px){
+@media(min-width: 1600px){
   .nav{
-    max-width: 70%;
+    max-width: 77%;
     display: flex;
     gap: 10rem;
   }

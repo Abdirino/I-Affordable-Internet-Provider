@@ -47,20 +47,18 @@ const Contact = () => {
               <p>Weekend 9am - 1pm</p>
             </div>
           </div>
-          <div className="location">
-            <div className="l-image">
-              <img src={LocationIMG} alt="" />
-            </div>
-          </div>
+          
           <div className="form">
             <div className="form-img">
-              <h3>Contact Us</h3>
+              <h3>Connect with Us</h3>
               <h1>
                 Ready To Get In Touch With <span>IAffordable?</span>
               </h1>
               <img src={ContactIMG} alt="" />
             </div>
             <form>
+              <h3>Contact Us</h3>
+              <h1>Write a message</h1>
               <input type="text" required placeholder="Name*" />{" "}
               <input type="number" required placeholder="Phone*" />
               <input type="email" required placeholder="E-Mail*" />
@@ -72,6 +70,12 @@ const Contact = () => {
               ></textarea>
               <button type="submit" className="button">Send Message</button>
             </form>
+          </div>
+
+          <div className="location">
+            <div className="l-image">
+              <img src={LocationIMG} alt="" />
+            </div>
           </div>
         </div>
       </div>
