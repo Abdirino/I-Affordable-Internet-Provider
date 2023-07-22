@@ -7,6 +7,7 @@ import SAbout from '../../Components/S-About/SAbout'
 import Plan from '../../Components/Plan/Plan'
 import Reason from '../../Components/Reason/Reason'
 import Advert from '../../Components/Advert/Advert'
+import Quizzes from '../../Components/Quizzes/Quizzes'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Plan />
       <Reason />
       <Advert />
+      <Quizzes />
       <Footer />
     </>
   )

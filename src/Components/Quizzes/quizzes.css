@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.4s ease;
+}
+.quizzes{
+    padding: 2.4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.quizzes h1{
+    font-size: 39px;
+    padding: 14px 0;
+}
+.quizzes h1 span{
+    color: #0339c1;
+}
+.quizzes p{
+    width: 850px;
+    padding: 7px 0;
+}
