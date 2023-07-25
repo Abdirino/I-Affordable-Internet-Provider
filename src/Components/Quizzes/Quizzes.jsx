@@ -4,7 +4,7 @@ import "./quizzes.css";
 import Accordion from "../Accordion/Accordion";
 
 const Quizzes = () => {
-  const [active, setActive] = useState("How to change my Wifi Password?");
+  const [active, setActive] = useState("");
 
 
 

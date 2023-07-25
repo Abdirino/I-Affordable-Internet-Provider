@@ -5,7 +5,7 @@
   transition: 0.4s ease;
 }
 .quizzes {
-  padding: 0.6rem 1rem;
+  padding: 2.4rem 1rem;
   text-align: center;
 }
 .q-head{
@@ -53,6 +53,6 @@
     align-items: center;
   }
   .Accordion{
-    max-width: 80%;
+    max-width: 75%;
   }
 }

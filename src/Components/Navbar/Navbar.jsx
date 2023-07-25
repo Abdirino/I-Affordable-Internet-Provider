@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import Logo from "../../Images/IAffordable-Logo.png";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = React.useState(false);
@@ -83,9 +83,7 @@ const Navbar = () => {
 
           <div className="nav-phone">
             <h3>Call Now</h3>
-            <Link>
-              <p>+254 721 107062</p>
-            </Link>
+            <a href="tel: +254 721 107062">+254 721 107062</a>
           </div>
         </nav>
       </div>

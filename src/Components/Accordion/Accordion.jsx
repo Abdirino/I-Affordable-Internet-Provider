@@ -2,13 +2,15 @@ import React from "react";
 import './accordion.css'
 
 const Accordion = ({title, active, setActive}) => {
+
+  const handleActive = () => setActive(!active)
   return (
     <>
         <div className="accordion" onClick={() => setActive(title)}>
           <div className="acc-head">
             <div className="container">
               <p>{title}</p>
-              <span onClick={() => setActive(title)}>
+              <span onClick={handleActive}>
                 <i className={active === title ? "fa fa-times" : "fa fa-caret-down"}></i>
               </span>
             </div>

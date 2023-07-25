@@ -5,9 +5,9 @@
   transition: 0.4s ease;
 }
 .accordion {
-  width: 100%;
+  width:100%;
   color: white;
-  display: block;
+  display: inline-block;
 }
 .acc-head {
   background: rgba(2, 38, 129, 0.7);
@@ -31,7 +31,8 @@
 }
 
 .acc-content {
-  box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 3px 3px;
   height: 0;
   opacity: 0;
   display: flex;
@@ -43,13 +44,16 @@
 }
 .acc-content .container {
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 .acc-content .container p {
   font-size: 17px;
   line-height: 1.6;
   color: black;
-  /* width: 640px; */
+  width: auto;
 }
 @media (max-width: 768px) {
   .acc-content .container p {

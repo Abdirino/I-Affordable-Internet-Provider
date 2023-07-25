@@ -13,8 +13,8 @@ const HSlider = () => {
     dots: true,
     autoplay: true,
     swipeToSlide: true,
-    speed: 800,
-    autoplaySpeed: 5300,
+    speed: 1100,
+    autoplaySpeed: 4900,
     fade: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -28,7 +28,7 @@ const HSlider = () => {
               <div className="homeS">
                 <p>Best-in-Class Internet Service Provider</p>
                 <h1>Don't Suffer The Buffer,</h1>
-                <h1>Speeds Upto 1Gbps With Unlimited Data</h1>
+                <h1>Speeds Upto 1Gbps With Unlimited Data.</h1>
                 <div className="perks">
                   <ul>
                     <li>Free Installation</li>
@@ -46,7 +46,7 @@ const HSlider = () => {
               <div className="homeS">
                 <p>Affordable High-Speed Connections</p>
                 <h1>Quality Home Connection</h1>
-                <h1>With Affordable Budget-Friendly Plans</h1>
+                <h1>With Affordable Budget-Friendly Plans.</h1>
                 <Link to="/package">
                   <button className="button">Explore Plans</button>
                 </Link>
@@ -54,18 +54,15 @@ const HSlider = () => {
             </div>
           </div>
 
-          {/* <div>
+          <div>
             <div className="H-slider3">
               <div className="homeS">
                 <p> High-End Internet Service Company</p>
-                <h1>Premier Services</h1>
-                <h1>Designed To Elevate Your Experience</h1>
-                <Link to="/package">
-                  <button className="button">Our Services</button>
-                </Link>
+                <h1>Premier Services Designed To</h1>
+                <h1>Elevate Your Experience And Grow Your Business.</h1>
               </div>
             </div>
-          </div> */}
+          </div>
         </Slider>
       </div>
     </>
