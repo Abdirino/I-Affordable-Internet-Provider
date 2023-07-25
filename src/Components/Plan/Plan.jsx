@@ -153,7 +153,7 @@ const Plan = () => {
           </p>
         </div>
         <div className="include-pack">
-          <div className="i-pack">
+          {/* <div className="i-pack">
             <div className="i-icon">
               <i class="fa-solid fa-server"></i>
             </div>
@@ -164,7 +164,7 @@ const Plan = () => {
                 praesentium uptatum
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="i-pack">
             <div className="i-icon">
               <i class="fa-sharp fa-solid fa-chart-simple"></i>
@@ -172,8 +172,8 @@ const Plan = () => {
             <div className="i-detail">
               <h3>Upgrade And Downgrade</h3>
               <p>
-                At vero eos et accusamus et iusto dignissimosus qui blanditiis
-                praesentium uptatum
+                Want to modify your plan, increase or decrease it's speed,
+                features and other aspects.
               </p>
             </div>
           </div>
@@ -184,12 +184,12 @@ const Plan = () => {
             <div className="i-detail">
               <h3>No Data Limits</h3>
               <p>
-                At vero eos et accusamus et iusto dignissimosus qui blanditiis
-                praesentium uptatum
+                There are no restrictions on the amount of data a customer can
+                use within a specified period (typically a month).
               </p>
             </div>
           </div>
-          <div className="i-pack">
+          {/* <div className="i-pack">
             <div className="i-icon">
               <i class="fa-sharp fa-solid fa-lock"></i>
             </div>
@@ -200,7 +200,7 @@ const Plan = () => {
                 praesentium uptatum
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="i-pack">
             <div className="i-icon">
               <i class="fa-solid fa-video"></i>
@@ -208,12 +208,12 @@ const Plan = () => {
             <div className="i-detail">
               <h3>Video Streaming</h3>
               <p>
-                At vero eos et accusamus et iusto dignissimosus qui blanditiis
-                praesentium uptatum
+                Watch videos live and streaming without having to download the
+                entire file beforehand
               </p>
             </div>
           </div>
-          <div className="i-pack">
+          {/* <div className="i-pack">
             <div className="i-icon">
               <i class="fa-solid fa-right-to-bracket"></i>
             </div>
@@ -224,7 +224,7 @@ const Plan = () => {
                 praesentium uptatum
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

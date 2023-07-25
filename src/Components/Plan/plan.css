@@ -61,7 +61,7 @@
 .p-detail li{
     font-weight: lighter;
     padding: 4px;
-    font-size: 13px;
+    font-size: 14px;
 }
 .p-detail li span{
     color: #0339c1;
@@ -124,7 +124,7 @@
 }
 
 .included{
-    padding: 2rem 5rem;
+    padding: 1rem 5rem 2.4rem 5rem;
     background: rgba(202, 204, 207, 0.2);
 }
 .include-pack{
@@ -139,7 +139,7 @@
     gap: 1.4rem;
 }
 .i-pack .i-icon i{
-    font-size: 50px;
+    font-size: 65px;
     color: #0339c1;
 }
 .i-detail{
@@ -148,7 +148,7 @@
 .i-detail h3{
     font-size: 18px;
     font-weight: bolder;
-    padding: 14px 0;
+    padding: 9px 0;
     width: fit-content;
     border-bottom: 1px solid #0339c1;
 }
@@ -175,6 +175,16 @@
         font-size: 15px;
     }
 }
+@media(max-width:468px){
+    .p-detail li{
+        font-size: 12px !important;
+    }
+    .i-pack .i-icon i{
+        font-size: 42px;
+        color: #0339c1;
+    }
+}
+
 @media(min-width: 1670px){
     .include-pack{
         max-width: 70%;
