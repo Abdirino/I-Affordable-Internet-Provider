@@ -7,10 +7,10 @@ const SAbout = () => {
     <>
       <div className="S-about">
         <div className="sa-head">
-          <h1>Welcome to IAffordable</h1>
+          <h1>Welcome to Affordable Internet Access Point</h1>
         </div>
         <p>
-          Our company is a leading national provider of the best internet
+          Our company is a leading provider of the best internet
           services. We are dedicated to helping our customers to find perfect
           solutions and bring high quality services. We can give you much more
           than other companies do because our services are aimed at satisfying

@@ -54,6 +54,8 @@
 .about-image {
   display: flex;
   flex: 1 1 500px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .about-image img {
   width: 100%;

@@ -19,25 +19,25 @@ const Plan = () => {
         <div className="plan">
           <div className="pack">
             <div className="p-head">
-              <h2>Personal Pack</h2>
-              <p>For Personal User</p>
+              <h2>Individual Plan</h2>
+              <p>For Individual User</p>
             </div>
             <div className="p-detail">
               <li>Free Installation</li>
               <li>
-                Upto <span>1Mbps</span> Download Speed
+                Upto <span>5Mbps</span> Download Speed
               </li>
               <li>Unlimited Data Usage</li>
               <li>Unlimited Bandwidth</li>
               <li>
-                <span>1 Month</span> Pricing Lock Guarantee
+                <span>Basic</span> Attachments
               </li>
             </div>
 
             <div className="price">
               <div className="money">
                 <p>Ksh</p>
-                <h1>1500</h1>
+                <h1>2,500</h1>
               </div>
               <p>/Monthly</p>
             </div>
@@ -52,38 +52,8 @@ const Plan = () => {
               <p>Most Popular Package</p>
             </div>
             <div className="p-head">
-              <h2>Family Pack</h2>
+              <h2>Home Plan</h2>
               <p>For Family User</p>
-            </div>
-            <div className="p-detail">
-              <li>Free Installation</li>
-              <li>
-                Upto <span>3Mbps</span> Download Speed
-              </li>
-              <li>Unlimited Data Usage</li>
-              <li>Unlimited Bandwidth</li>
-              <li>
-                <span>1 Month</span> Pricing Lock Guarantee
-              </li>
-            </div>
-
-            <div className="price">
-              <div className="money">
-                <p>Ksh</p>
-                <h1>3000</h1>
-              </div>
-              <p>/Monthly</p>
-            </div>
-            <div className="order">
-              <Link to="/contact">
-                <button className="button">Order This Plan</button>
-              </Link>
-            </div>
-          </div>
-          <div className="pack">
-            <div className="p-head">
-              <h2>Business Pack</h2>
-              <p>For Business User</p>
             </div>
             <div className="p-detail">
               <li>Free Installation</li>
@@ -93,14 +63,14 @@ const Plan = () => {
               <li>Unlimited Data Usage</li>
               <li>Unlimited Bandwidth</li>
               <li>
-                <span>1 Month</span> Pricing Lock Guarantee
+                <span>Basic</span> Attachments
               </li>
             </div>
 
             <div className="price">
               <div className="money">
                 <p>Ksh</p>
-                <h1>7500</h1>
+                <h1>4,500</h1>
               </div>
               <p>/Monthly</p>
             </div>
@@ -112,7 +82,37 @@ const Plan = () => {
           </div>
           <div className="pack">
             <div className="p-head">
-              <h2>Corporate Pack</h2>
+              <h2>Business Plan 1</h2>
+              <p>For Small Business</p>
+            </div>
+            <div className="p-detail">
+              <li>Free Installation</li>
+              <li>
+                Upto <span>15Mbps</span> Download Speed
+              </li>
+              <li>Unlimited Data Usage</li>
+              <li>Unlimited Bandwidth</li>
+              <li>
+                Clear <span>CCTV</span> Access
+              </li>
+            </div>
+
+            <div className="price">
+              <div className="money">
+                <p>Ksh</p>
+                <h1>6,000</h1>
+              </div>
+              <p>/Monthly</p>
+            </div>
+            <div className="order">
+              <Link to="/contact">
+                <button className="button">Order This Plan</button>
+              </Link>
+            </div>
+          </div>
+          <div className="pack">
+            <div className="p-head">
+              <h2>Business Plan 2</h2>
               <p>For Corporate User</p>
             </div>
             <div className="p-detail">
@@ -123,14 +123,45 @@ const Plan = () => {
               <li>Unlimited Data Usage</li>
               <li>Unlimited Bandwidth</li>
               <li>
-                <span>1 Month</span> Pricing Lock Guarantee
+                Clear <span>CCTV</span> Access
               </li>
             </div>
 
             <div className="price">
               <div className="money">
                 <p>Ksh</p>
-                <h1>15000</h1>
+                <h1>7,500</h1>
+              </div>
+              <p>/Monthly</p>
+            </div>
+            <div className="order">
+              <Link to="/contact">
+                <button className="button">Order This Plan</button>
+              </Link>
+            </div>
+          </div>
+          <div className="pack">
+            <div className="p-head">
+              <h2>Corporate Plan</h2>
+              <p>For Corporate User</p>
+            </div>
+            <div className="p-detail">
+              <li>Free Installation</li>
+              <li>
+                Upto <span>50Mbps</span> Download Speed
+              </li>
+              <li>Unlimited Data Usage</li>
+              <li>Unlimited Bandwidth</li>
+              <li>
+                CCTV &<span>VOIP</span> Access
+              </li>
+              <li>Uninterrupted <span>Conference</span> Streaming</li>
+            </div>
+
+            <div className="price">
+              <div className="money">
+                <p>Ksh</p>
+                <h1>Inquire Price</h1>
               </div>
               <p>/Monthly</p>
             </div>

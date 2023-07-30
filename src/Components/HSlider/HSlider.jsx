@@ -13,8 +13,8 @@ const HSlider = () => {
     dots: true,
     autoplay: true,
     swipeToSlide: true,
-    speed: 1100,
-    autoplaySpeed: 4900,
+    speed: 900,
+    autoplaySpeed: 3900,
     fade: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -27,8 +27,8 @@ const HSlider = () => {
             <div className="H-slider1">
               <div className="homeS">
                 <p>Best-in-Class Internet Service Provider</p>
-                <h1>Don't Suffer The Buffer,</h1>
-                <h1>Speeds Upto 1Gbps With Unlimited Data.</h1>
+                <h1>For All Your Internet Needs,</h1>
+                <h1>And High Connectivity.</h1>
                 <div className="perks">
                   <ul>
                     <li>Free Installation</li>

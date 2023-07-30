@@ -5,6 +5,7 @@ import Footer from "../../Components/Footer/Footer";
 
 import aboutIMG from "../../Images/IAffordable-About.jpg";
 import Reason from "../../Components/Reason/Reason";
+import Advert from "../../Components/Advert/Advert";
 
 const About = () => {
   return (
@@ -66,6 +67,7 @@ const About = () => {
           <source />
         </video>
       </div>
+      <Advert />
       <Footer />
     </>
   );

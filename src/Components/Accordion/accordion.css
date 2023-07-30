@@ -7,17 +7,17 @@
 .accordion {
   width:100%;
   color: white;
-  display: inline-block;
 }
 .acc-head {
   background: rgba(2, 38, 129, 0.7);
   border-radius: 3px;
-  padding: 1rem;
+  padding: 10px;
 }
 .acc-head .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: start;
 }
 .acc-head p {
   letter-spacing: 1.2px;
@@ -58,6 +58,13 @@
 @media (max-width: 768px) {
   .acc-content .container p {
     width: auto;
+  }
+}
+@media (max-width: 468px) {
+  .acc-head p {
+    letter-spacing: 1.2px;
+    font-weight: 440;
+    font-size: 15px;
   }
 }
 

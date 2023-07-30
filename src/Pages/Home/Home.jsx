@@ -17,8 +17,8 @@ const Home = () => {
       <SAbout />
       <Plan />
       <Reason />
-      <Advert />
       <Quizzes />
+      <Advert />
       <Footer />
     </>
   )

@@ -6,7 +6,7 @@ const Accordion = ({title, active, setActive}) => {
   const handleActive = () => setActive(!active)
   return (
     <>
-        <div className="accordion" onClick={() => setActive(title)}>
+        <div className="accordion" onClick={true ? () => setActive(title) : () => setActive(!title)}>
           <div className="acc-head">
             <div className="container">
               <p>{title}</p>

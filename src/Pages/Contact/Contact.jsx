@@ -19,16 +19,16 @@ const Contact = () => {
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <h2>Address</h2>
-              <p>Dead Street, Moyale Town,</p>
-              <p>Marsabit, KENYA</p>
+              <p>Al-Yusra Building</p>
+              <p>Moyale Town, KENYA</p>
             </div>
             <div className="c-detail">
               <div className="c-icon">
                 <i class="fa-solid fa-phone"></i>
               </div>
               <h2>Phone</h2>
-              <p>+254 721 107062</p>
-              <p>+254 721 261197</p>
+              <p>+254 721 107 062</p>
+              <p>+254 721 261 197</p>
             </div>
             <div className="c-detail">
               <div className="c-icon">
@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
               <h2>E-Mail</h2>
               <p>ahash8@gmail.com</p>
-              <p>iaffordable@gmail.com</p>
+              <p>affordableinternetap@gmail.com</p>
             </div>
             <div className="c-detail">
               <div className="c-icon">

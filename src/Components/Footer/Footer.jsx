@@ -14,19 +14,19 @@ const Footer = () => {
             </li>
             <div className="c-info">
               <i class="fa-solid fa-phone"></i>
-              <p>(1) +254 721 107062</p>
+              <p>(1) +254 721 107 062</p>
             </div>
             <div className="c-info">
               <i class="fa-solid fa-phone"></i>
-              <p>(2) +254 721 261197</p>
+              <p>(2) +254 721 261 197</p>
             </div>
             <div className="c-info">
               <i class="fa-solid fa-envelope"></i>
-              <p>iaffordable@gmail.com</p>
+              <p>affordableinternetap@gmail.com</p>
             </div>
             <div className="c-info">
               <i class="fa-solid fa-location-dot"></i>
-              <p>78 Dead Street, Moyale, Marsabit, Kenya</p>
+              <p>Al-Yusra Building, Moyale Town, Kenya</p>
             </div>
           </section>
           <section>
@@ -34,35 +34,26 @@ const Footer = () => {
             <li>Manage My Account</li>
             <li>Constant Guard</li>
             <li>Cable Customer Agreement</li>
-            <li>Move Services</li>
-            <li>Manage User & Alerts</li>
-            <li>Log Out</li>
-            <li>Internet Help</li>
+            <li>More Services</li>
           </section>
           <section>
             <h2>Support Links</h2>
             <li>IAffordable Services</li>
-            <li>Support Forum</li>
+            <li>Payment Methods</li>
             <li>Privacy Statement</li>
             <li>Social Responsibilities</li>
-            <li>Internet Help</li>
-            <li>Support Forum</li>
-            <li>Payment Methods</li>
           </section>
           <section>
             <h2>Popular</h2>
             <li>IAffordable Services</li>
-            <li>Support Forum</li>
+            <li>Internet Help</li>
             <li>Privacy Statement</li>
             <li>Social Responsibilities</li>
-            <li>Internet Help</li>
-            <li>Support Forum</li>
-            <li>Payment Methods</li>
           </section>
         </div>
       </div>
       <div className="copy-write">
-        <p>© 2023 IAffordable All rights reserved | Designed by @Abdirino</p>
+        <p>© 2023 IAffordable All rights reserved | Engineered by @Abdirino</p>
         <div className="social">
           <i class="fa-brands fa-square-instagram"></i>
           <i class="fa-brands fa-square-facebook"></i>
