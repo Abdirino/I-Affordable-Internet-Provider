@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copy-write">
-        <p>© 2023 IAffordable All rights reserved | Engineered by @Abdirino</p>
+        <p>© 2023 Affordable Internet Access Point All rights reserved | Engineered by @Abdirino</p>
         <div className="social">
           <i class="fa-brands fa-square-instagram"></i>
           <i class="fa-brands fa-square-facebook"></i>

@@ -52,7 +52,7 @@ const Contact = () => {
             <div className="form-img">
               <h3>Connect with Us</h3>
               <h1>
-                Ready To Get In Touch With <span>IAffordable?</span>
+                Ready To Get In Touch With <span>Affordable Internet Access Point?</span>
               </h1>
               <img src={ContactIMG} alt="" />
             </div>

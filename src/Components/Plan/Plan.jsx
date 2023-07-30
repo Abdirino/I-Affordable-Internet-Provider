@@ -1,6 +1,7 @@
 import React from "react";
 import "./plan.css";
 import { Link } from "react-router-dom";
+import Reason from "../Reason/Reason";
 
 const Plan = () => {
   return (
@@ -113,7 +114,7 @@ const Plan = () => {
           <div className="pack">
             <div className="p-head">
               <h2>Business Plan 2</h2>
-              <p>For Corporate User</p>
+              <p>For Large Business</p>
             </div>
             <div className="p-detail">
               <li>Free Installation</li>
@@ -155,7 +156,9 @@ const Plan = () => {
               <li>
                 CCTV &<span>VOIP</span> Access
               </li>
-              <li>Uninterrupted <span>Conference</span> Streaming</li>
+              <li>
+                Uninterrupted <span>Conference</span> Streaming
+              </li>
             </div>
 
             <div className="price">
@@ -178,9 +181,10 @@ const Plan = () => {
         <div className="head">
           <h1>All Plans Include</h1>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour.
+            Our basic or essential offerings are the same across all
+            subscription levels. However, there might be variations in terms of
+            additional features, usage limits, or premium services available at
+            higher-tier plans.
           </p>
         </div>
         <div className="include-pack">
@@ -258,6 +262,7 @@ const Plan = () => {
           </div> */}
         </div>
       </div>
+      <Reason />
     </>
   );
 };
