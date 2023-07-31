@@ -10,7 +10,24 @@ const Service = () => {
     <>
       <Navbar />
       <div className="services">
-        <div className="service"></div>
+        <div className="service">
+
+          <div className="s-info">
+            <i class="fa-solid fa-globe"></i>
+            <h2>High Speed Internet</h2>
+            <p>
+              Speedy internet connectivity that provides significantly faster data
+              transmission rates enables users to access and transfer data at
+              much higher speeds, making online activities smoother, more
+              efficient, and more enjoyable.
+            </p>
+            <div className="learn">
+              <p>Learn More</p>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          
+        </div>
       </div>
       <Advert />
       <Quizzes />

@@ -63,7 +63,11 @@ const About = () => {
           offers unbeatable value and exceptional connectivity in our latest
           video showcasing our top-notch services and satisfied customers."
         </p>
-        <video controlsList="" poster="../../Images/IAffordable Home 1.jpg" className="video">
+        <video
+          controlsList=""
+          poster="../../Images/IAffordable Home 1.jpg"
+          className="video"
+        >
           <source />
         </video>
       </div>

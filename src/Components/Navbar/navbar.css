@@ -57,13 +57,13 @@
 .nav-item {
   padding: 0.5rem;
 }
-.nav-item a {
-  font-size: 20px;
+.nav-links {
+  font-size: 18px;
   color: black;
   font-weight: 500;
-  padding: 10px;
+  padding: 8px;
 }
-.nav-item a:hover {
+.nav-links:hover {
   color: #0d45be;
 }
 

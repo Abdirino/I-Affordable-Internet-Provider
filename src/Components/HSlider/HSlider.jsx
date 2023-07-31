@@ -54,7 +54,7 @@ const HSlider = () => {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <div className="H-slider3">
               <div className="homeS">
                 <p> High-End Internet Service Company</p>
@@ -62,7 +62,7 @@ const HSlider = () => {
                 <h1>Elevate Your Experience And Grow Your Business.</h1>
               </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
       </div>
     </>
