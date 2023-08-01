@@ -4,9 +4,81 @@
     transition: 0.4s ease;
 }
 .services{
-    padding: 3rem 1rem;
+    padding: 5.5rem 1rem 3rem 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.service{
+    padding: 3rem 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.service .s-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 450px;
+    padding: 1rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.s-info:hover{
+    box-shadow: 0 0 2px #2f4c96;
+}
+.s-info i{
+    padding: 15px 0;
+    font-size: 42px;
+    color: #2f4c96;
+}
+.s-info h2{
+    font-size: 21px;
+    padding: 8px;
+}
+.s-info:hover  h2{
+    color: #2f4c96;
+}
+.s-info p{
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.s-info .learn{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    margin: 18px 0;
+    border: 1px solid #2f4c96;
+    color: #2f4c96;
+    cursor: pointer;
+    transition: 0.1s ease-in-out !important;
+}
+.s-info .learn i{
+    font-size: 17px;
+}
+.s-info .learn:hover{
+    letter-spacing: 1px;
+}
+
+@media(min-width: 1768px){
+    .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .service{
+        max-width: 70%;
+    }
+}
+@media(max-width: 968px){
+    .service{
+        flex-wrap: wrap;
+    }
 }

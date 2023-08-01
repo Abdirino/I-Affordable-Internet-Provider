@@ -85,7 +85,7 @@
   font-weight: lighter;
 }
 .money h1 {
-  font-size: 36px;
+  font-size: 32px;
 }
 .pack:hover {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
@@ -115,10 +115,10 @@
   border: 1px solid rgba(128, 128, 128, 0.2) !important;
   background: #0339c1;
 }
-.family {
+/* .family {
   position: relative;
   top: -27px;
-}
+} */
 @media (max-width: 650px) {
   .family {
     top: 0;

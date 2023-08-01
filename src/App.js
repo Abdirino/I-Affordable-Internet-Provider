@@ -9,6 +9,9 @@ import Contact from "./Pages/Contact/Contact";
 import Service from "./Pages/Services/Service";
 
 import Loader from "./Components/Loader/Loader";
+import Service1 from "./Pages/ServicesInfo/Service1";
+import Service2 from "./Pages/ServicesInfo/Service2";
+import Service3 from "./Pages/ServicesInfo/Service3";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -31,6 +34,10 @@ function App() {
             <Route path="/service" element={<Service />} />
             <Route path="/package" element={<Packages />} />
             <Route path="/contact" element={<Contact />} />
+
+            <Route path="/service1" element={<Service1 />}/>
+            <Route path="/service2" element={<Service2 />}/>
+            <Route path="/service3" element={<Service3 />}/>
           </Routes>
         </BrowserRouter>
       )}
