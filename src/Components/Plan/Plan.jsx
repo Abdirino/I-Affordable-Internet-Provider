@@ -174,39 +174,6 @@ const Plan = () => {
               </Link>
             </div>
           </div>
-          <div className="pack">
-            <div className="p-head">
-              <h2>Corporate Plan 2</h2>
-              <p>For Corporate User</p>
-            </div>
-            <div className="p-detail">
-              <li>Free Installation</li>
-              <li>
-                Upto <span>50Mbps</span> Download Speed
-              </li>
-              <li>Unlimited Data Usage</li>
-              <li>Unlimited Bandwidth</li>
-              <li>
-                CCTV &<span>VOIP</span> Access
-              </li>
-              <li>
-                Uninterrupted <span>Conference</span> Streaming
-              </li>
-            </div>
-
-            <div className="price">
-              <div className="money">
-                <p>Ksh</p>
-                <h1>Inquire Price</h1>
-              </div>
-              <p>/Monthly</p>
-            </div>
-            <div className="order">
-              <Link to="/contact">
-                <button className="button">Order This Plan</button>
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
 
