@@ -14,12 +14,41 @@ import Service2 from "./Pages/ServicesInfo/Service2";
 import Service3 from "./Pages/ServicesInfo/Service3";
 
 function App() {
+
+  // on-scroll animation
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      // console.log(entry);
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      }
+    });
+  });
+
+  const hiddenElements = document.querySelectorAll(".hidden");
+  hiddenElements.forEach((el) => observer.observe(el));
+  // end on-scroll animation
+
+  // on-scroll animation
+  const observer2 = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      // console.log(entry);
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      }
+    });
+  });
+
+  const hiddenElements2 = document.querySelectorAll(".hidden2");
+  hiddenElements2.forEach((el) => observer2.observe(el));
+  // end on-scroll animation
+
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
   }, []);
   return (
     <div className="App">
@@ -35,9 +64,9 @@ function App() {
             <Route path="/package" element={<Packages />} />
             <Route path="/contact" element={<Contact />} />
 
-            <Route path="/service1" element={<Service1 />}/>
-            <Route path="/service2" element={<Service2 />}/>
-            <Route path="/service3" element={<Service3 />}/>
+            <Route path="/service1" element={<Service1 />} />
+            <Route path="/service2" element={<Service2 />} />
+            <Route path="/service3" element={<Service3 />} />
           </Routes>
         </BrowserRouter>
       )}

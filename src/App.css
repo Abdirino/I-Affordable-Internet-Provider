@@ -61,3 +61,24 @@
   width: 150%;
 }
 
+/* Scroll Animation */
+.hidden {
+  opacity: 0;
+  filter: blur(4px);
+  transform: translateX(-50%);
+  transition: all 880ms;
+}
+.hidden2 {
+  opacity: 0;
+  filter: blur(4px);
+  transform: translateX(50%);
+  transition: all 880ms;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+/* Scroll Animation */
+
+

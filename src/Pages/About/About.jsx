@@ -16,7 +16,7 @@ const About = () => {
           <div className="about-detail">
             <h2>About Us</h2>
             <h1>
-              Connecting the World, <span>One Click at a Time </span>- Your No. 1 Internet Solution!
+              Connecting the World, <span>One Click at a Time - Your No. 1</span> Internet Solution!
             </h1> 
             <p>
               We’re committed to making Internet simple for all clients to
