@@ -16,9 +16,8 @@ const About = () => {
           <div className="about-detail">
             <h2>About Us</h2>
             <h1>
-              We are <span>no. 1 internet service provider</span> company in
-              Kenya.
-            </h1>
+              Connecting the World, <span>One Click at a Time </span>- Your No. 1 Internet Solution!
+            </h1> 
             <p>
               We’re committed to making Internet simple for all clients to
               connect across our own network. Our vision is to lead the market

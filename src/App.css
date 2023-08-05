@@ -9,15 +9,14 @@
 }
 
 ::-webkit-scrollbar{
-  width:10px!important;
-  height:15px!important;
+  width:9px!important;
 }
 ::-webkit-scrollbar-track{
   background: rgba(0, 0, 0, 0.1);
 }
 ::-webkit-scrollbar-thumb{
   background:rgba(3, 57, 193, 0.6)!important;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 ::-webkit-scrollbar-button{
   display:none!important;

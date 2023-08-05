@@ -10,7 +10,7 @@ const Reason = () => {
             </div>
             <div className="reason">
                 <div className="re">
-                    <h2>300+</h2>
+                    <h2>500+</h2>
                     <p>Happy Customers</p>
                 </div>
                 <div className="re">
@@ -18,7 +18,7 @@ const Reason = () => {
                     <p>Support Services</p>
                 </div>
                 <div className="re">
-                    <h2>15+</h2>
+                    <h2>30+</h2>
                     <p>Access Points</p>
                 </div>
                 <div className="re">

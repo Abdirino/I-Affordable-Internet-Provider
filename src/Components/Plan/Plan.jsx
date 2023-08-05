@@ -12,9 +12,9 @@ const Plan = () => {
             Choose <span>Affordable</span> Packages
           </h1>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour.
+            When choosing among the best high speed Internet providers, there
+            are several other factors that should be taken into consideration
+            besides just the available download speeds.
           </p>
         </div>
         <div className="plan">
@@ -143,7 +143,7 @@ const Plan = () => {
           </div>
           <div className="pack">
             <div className="p-head">
-              <h2>Corporate Plan 1</h2>
+              <h2>Corporate Plan</h2>
               <p>For Corporate User</p>
             </div>
             <div className="p-detail">
@@ -152,7 +152,6 @@ const Plan = () => {
                 Upto <span>30Mbps</span> Download Speed
               </li>
               <li>Unlimited Data Usage</li>
-              <li>Unlimited Bandwidth</li>
               <li>
                 CCTV &<span>VOIP</span> Access
               </li>
