@@ -49,7 +49,7 @@
   font-weight: lighter;
 }
 .about-detail ul li::marker {
-  content: "🔹 ";
+  content: "🔷 ";
 }
 
 .about-image {

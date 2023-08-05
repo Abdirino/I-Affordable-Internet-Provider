@@ -4,7 +4,6 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 
 import LocationIMG from "../../Images/IAffordable Location.png";
-import ContactIMG from "../../Images/contact IMG.jpg";
 
 const Contact = () => {
   return (
@@ -36,7 +35,7 @@ const Contact = () => {
               </div>
               <h2>E-Mail</h2>
               <p>ahash8@gmail.com</p>
-              <p>affordableinternetap@gmail.com</p>
+              <p>affordableiap@gmail.com</p>
             </div>
             <div className="c-detail">
               <div className="c-icon">
@@ -49,19 +48,13 @@ const Contact = () => {
           </div>
           
           <div className="form">
-            <div className="form-img">
-              <h3>Connect with Us</h3>
-              <h1>
-                Ready To Get In Touch With <span>Affordable Internet Access Point?</span>
-              </h1>
-              <img src={ContactIMG} alt="" />
-            </div>
             <form>
               <h3>Contact Us</h3>
               <h1>Write a message</h1>
-              <input type="text" required placeholder="Name*" />{" "}
-              <input type="number" required placeholder="Phone*" />
-              <input type="email" required placeholder="E-Mail*" />
+              <input type="text" required placeholder="Name*  e.g Hussein" />{" "}
+              <input type="number" required placeholder="Phone*  e.g 0708 097 654" />
+              <input type="email" required placeholder="E-Mail*  e.g abdi@gmail.com" />
+              <input type="text" required placeholder="Package*  e.g Home plan" />
               <textarea
                 placeholder="Your Message*"
                 required

@@ -35,6 +35,7 @@ const HSlider = () => {
                     <li>Internet Service Solutions</li>
                     <li>Top Quality Service With Affordable Pricing</li>
                     <li>Live Video Streaming With Ultra Fast Speed</li>
+                    <li>Exclusive Priority Customer Care</li>
                   </ul>
                 </div>
               </div>
