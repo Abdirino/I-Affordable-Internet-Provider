@@ -149,11 +149,11 @@ const Plan = () => {
             <div className="p-detail">
               <li>Free Installation</li>
               <li>
-                Upto <span>30Mbps</span> Download Speed
+                Upto <span>50Mbps</span> Download Speed
               </li>
               <li>Unlimited Data Usage</li>
               <li>
-                CCTV &<span>VOIP</span> Access
+                CCTV &<span> VOIP</span> Access
               </li>
               <li>
                 Uninterrupted <span>Conference</span> Streaming

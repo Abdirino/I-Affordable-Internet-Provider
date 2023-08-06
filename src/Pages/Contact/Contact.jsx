@@ -1,11 +1,36 @@
 import React from "react";
+import { useRef } from "react";
 import "./contact.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import LocationIMG from "../../Images/IAffordable Location.png";
 
 const Contact = () => {
+
+  // function formSubmit () { 
+  //   document.getElementById("frm").reset();
+  // }
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_3oviz2h', 'template_9bmaeqd', form.current, 'Pr-4H4xBr6MljTcGR')
+      .then((result) => {
+        console.log(result.text);
+        // console.log("Message sent successfully");
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
+
+  const notify = () => toast("Message sent successfully 👌");
+
   return (
     <>
       <Navbar />
@@ -35,7 +60,7 @@ const Contact = () => {
               </div>
               <h2>E-Mail</h2>
               <p>ahash8@gmail.com</p>
-              <p>affordableiap@gmail.com</p>
+              <p>affordableinternet@gmail.com</p>
             </div>
             <div className="c-detail">
               <div className="c-icon">
@@ -46,22 +71,24 @@ const Contact = () => {
               <p>Weekend 9am - 1pm</p>
             </div>
           </div>
-          
+
           <div className="form">
-            <form>
+            <form id="frm" ref={form} onSubmit={sendEmail} autoComplete="off">
               <h3>Contact Us</h3>
-              <h1>Write a message</h1>
-              <input type="text" required placeholder="Name*  e.g Hussein" />{" "}
-              <input type="number" required placeholder="Phone*  e.g 0708 097 654" />
-              <input type="email" required placeholder="E-Mail*  e.g abdi@gmail.com" />
-              <input type="text" required placeholder="Package*  e.g Home plan" />
+              <h1>Write us a message</h1>
+              <input type="text" required placeholder="Name*  e.g Hussein" name="from_name"  />
+              <input type="number" required placeholder="Phone*  e.g 0708 097 654" name="phone" />
+              <input type="email" required placeholder="E-Mail*  e.g abdi@gmail.com" name="email" />
+              <input type="text" required placeholder="Package*  e.g Home plan" name="package" />
               <textarea
+                name="message"
                 placeholder="Your Message*"
                 required
                 cols="30"
                 rows="10"
               ></textarea>
-              <button type="submit" className="button">Send Message</button>
+              <button type="submit" value="reset" id="btnSubmit" onClick={notify} className="button">Send Message</button>
+              <ToastContainer />
             </form>
           </div>
 

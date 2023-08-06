@@ -48,6 +48,7 @@
   padding: 2px 0;
   color: grey;
   font-weight: lighter;
+  letter-spacing: 0.4px;
 }
 .c-detail:hover h2 {
   color: #0339c1;
@@ -99,6 +100,8 @@ form input {
   border-radius: 3px;
   margin: 10px 0;
   letter-spacing: 1px;
+  outline: none;
+  color: grey;
 }
 form textarea {
   width: 100%;
@@ -109,6 +112,8 @@ form textarea {
   border-radius: 3px;
   margin: 10px 0;
   letter-spacing: 1px;
+  outline: none;
+  color: grey;
 }
 .form form .button{
   margin: 10px 0;
@@ -133,5 +138,6 @@ form textarea {
 @media (max-width: 990px) {
   .form {
     flex-wrap: wrap;
+    padding: 1.6rem 0.2rem;
   }
 }
