@@ -79,7 +79,7 @@
 }
 
 .vision{
-  padding: 1.2rem;
+  padding: 3.2rem 1rem;
   display: flex;
   gap: 1.2rem;
   /* align-items: center; */
@@ -87,26 +87,30 @@
 }
 .vision .v{
   /* width: 350px !important; */
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1 1 350px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
-.v li{
-  padding: 12px 0;
+.v:hover{
+  box-shadow: 0 0 4px #0339c161;
 }
-.v li::marker{
-  content: '🔹 ';
+.v h1{
+  padding: 14px;
 }
-.v:nth-child(2), .v:nth-child(3){
-  text-align: start;
-  letter-spacing: 1px;
-  font-weight: 500;
+.v h1 span{
+  color: #0339c1;
 }
-.v:nth-child(2) h1, .v:nth-child(3) h1{
-  text-align: start;
+.v p{
+  padding: 10px 0;
+  letter-spacing: 0.4px;
+  font-weight: lighter;
+}
+.v p span{
+  color: #0339c1;
 }
 
 .team {
@@ -193,6 +197,9 @@
   .team p, .video-tour p {
     width: auto;
   }
+  .vision{
+    flex-wrap: wrap;
+  }
 }
 @media (min-width: 1670px) {
   .About {
@@ -202,5 +209,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .Vision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vision{
+    max-width: 70%;
   }
 }

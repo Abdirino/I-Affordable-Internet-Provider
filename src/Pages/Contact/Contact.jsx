@@ -76,7 +76,7 @@ const Contact = () => {
             <form id="frm" ref={form} onSubmit={sendEmail} autoComplete="off">
               <h3>Contact Us</h3>
               <h1>Write us a message</h1>
-              <input type="text" required placeholder="Name*  e.g Hussein" name="from_name" />
+              <input type="text" required placeholder="Full Name*  e.g Hussein Mohammed" name="from_name" />
               <input type="number" required placeholder="Phone*  e.g 0708 097 654" name="phone" />
               <input type="email" required placeholder="E-Mail*  e.g abdi@gmail.com" name="email" />
               <input type="text" required placeholder="Package*  e.g Home plan" name="package" />
