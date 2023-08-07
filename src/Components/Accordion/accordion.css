@@ -12,6 +12,7 @@
   background: rgba(2, 38, 129, 0.7);
   border-radius: 3px;
   padding: 10px;
+  cursor: pointer;
 }
 .acc-head .container {
   display: flex;
@@ -21,7 +22,7 @@
 }
 .acc-head p {
   letter-spacing: 1.2px;
-  font-weight: 600;
+  font-weight: 440;
 }
 .acc-head span {
   cursor: pointer;

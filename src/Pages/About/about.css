@@ -57,11 +57,56 @@
   flex: 1 1 500px;
   border-radius: 10px;
   overflow: hidden;
+  z-index: 1;
 }
 .about-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.about-image2 {
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 10;
+  position: relative;
+  left: -200px;
+}
+.about-image2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vision{
+  padding: 1.2rem;
+  display: flex;
+  gap: 1.2rem;
+  /* align-items: center; */
+  justify-content: center;
+}
+.vision .v{
+  /* width: 350px !important; */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 350px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.v li{
+  padding: 12px 0;
+}
+.v li::marker{
+  content: '🔹 ';
+}
+.v:nth-child(2), .v:nth-child(3){
+  text-align: start;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.v:nth-child(2) h1, .v:nth-child(3) h1{
+  text-align: start;
 }
 
 .team {

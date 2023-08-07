@@ -12,7 +12,7 @@ const Advert = () => {
           <div className="ad-detail">
             <h1>Your Personal <span>🔷</span> Speed</h1>
             <h3>
-              & Quality Home Connection <span>Starting @3000 /Month</span>
+              & Quality Home Connection <span>Starting @2500 /Month</span>
             </h3>
             <p>
               When choosing among the best high speed Internet providers, there

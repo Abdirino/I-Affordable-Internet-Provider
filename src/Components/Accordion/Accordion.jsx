@@ -3,15 +3,15 @@ import './accordion.css'
 
 const Accordion = ({title, active, setActive}) => {
 
-  const handleActive = () => setActive(!active)
+  // const handleActive = () => setActive(!active)
   return (
     <>
         <div className="accordion" onClick={true ? () => setActive(title) : () => setActive(!title)}>
           <div className="acc-head">
             <div className="container">
               <p>{title}</p>
-              <span onClick={handleActive}>
-                <i className={active === title ? "fa fa-times" : "fa fa-caret-down"}></i>
+              <span>
+                <i className={active === title ? "fa fa-caret-down" : "fa fa-caret-down"}></i>
               </span>
             </div>
           </div>
