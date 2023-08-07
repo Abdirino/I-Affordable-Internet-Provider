@@ -1,4 +1,3 @@
-import React from "react";
 import { useRef } from "react";
 import "./contact.css";
 import Navbar from "../../Components/Navbar/Navbar";
@@ -11,18 +10,16 @@ import LocationIMG from "../../Images/IAffordable Location.png";
 
 const Contact = () => {
 
-  // function formSubmit () { 
-  //   document.getElementById("frm").reset();
-  // }
-
   const form = useRef();
 
   const sendEmail = (e) => {
+    const frm = document.querySelector('#frm');
     e.preventDefault();
 
     emailjs.sendForm('service_3oviz2h', 'template_9bmaeqd', form.current, 'Pr-4H4xBr6MljTcGR')
       .then((result) => {
         console.log(result.text);
+        frm.reset();
         // console.log("Message sent successfully");
       }, (error) => {
         console.log(error.text);
