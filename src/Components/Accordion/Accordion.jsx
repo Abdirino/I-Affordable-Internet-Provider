@@ -9,7 +9,7 @@ const Accordion = ({title, active, setActive}) => {
         <div className="accordion" onClick={true ? () => setActive(title) : () => setActive(!title)}>
           <div className="acc-head">
             <div className="container">
-              <p>{title}</p>
+              <h4>{title}</h4>
               <span>
                 <i className={active === title ? "fa fa-caret-down" : "fa fa-caret-down"}></i>
               </span>

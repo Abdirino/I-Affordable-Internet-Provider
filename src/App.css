@@ -1,11 +1,25 @@
+@font-face {
+  font-family: Asta;
+  src: url(../src/Assets/Fonts/Astakhov\ First\ Simple.ttf);
+}
+@font-face {
+  font-family: Exo;
+  src: url(../src/Assets/Fonts/Exo-ExtraBold.ttf);
+}
+
 .App {
   text-align: center;
-  font-family: 'Noto Serif', serif;
+  font-family: Asta;
   font-weight: 600;
   overflow-x: hidden;
 }
-.App p{
+.App p, ul , li, a{
   font-family: 'Poppins', sans-serif;
+}
+.App h1, h2 , h3 , h4, span{
+  font-family: Exo;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
 }
 
 ::-webkit-scrollbar{
@@ -29,6 +43,7 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #0339c1;
+  font-family: Exo;
   transition: all 1000ms;
   font-size: 16px;
   position: relative;

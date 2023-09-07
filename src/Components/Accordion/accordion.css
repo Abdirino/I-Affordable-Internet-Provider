@@ -20,8 +20,8 @@
   align-items: center;
   text-align: start;
 }
-.acc-head p {
-  letter-spacing: 1.2px;
+.acc-head h4 {
+  letter-spacing: 1px;
   font-weight: 440;
 }
 .acc-head span {
@@ -51,8 +51,8 @@
   text-align: center;
 }
 .acc-content .container p {
-  font-size: 17px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.2;
   color: black;
   width: auto;
 }
