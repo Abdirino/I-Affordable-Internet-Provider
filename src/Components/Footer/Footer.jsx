@@ -38,7 +38,9 @@ const Footer = () => {
           </section>
           <section>
             <h2>Support Links</h2>
-            <li>FAQs</li>
+            <Link to='/FAQs' style={{ color: 'inherit', textDecoration: 'inherit' }}>
+              <li>FAQs</li>
+            </Link>
             <li>Privacy Policy</li>
             <Link to='/contact' style={{ color: 'inherit', textDecoration: 'inherit' }}>
               <li>E-Mail Support</li>
