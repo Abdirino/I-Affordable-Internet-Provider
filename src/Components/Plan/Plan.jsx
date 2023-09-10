@@ -83,13 +83,13 @@ const Plan = () => {
           </div>
           <div className="pack">
             <div className="p-head">
-              <h2>Business Plan 1</h2>
+              <h2>Business Plan</h2>
               <p>For Small Business</p>
             </div>
             <div className="p-detail">
               <li>Free Installation</li>
               <li>
-                Upto <span>15Mbps</span> Download Speed
+                Upto <span>20Mbps</span> Download Speed
               </li>
               <li>Unlimited Data Usage</li>
               <li>Unlimited Bandwidth</li>
@@ -101,7 +101,7 @@ const Plan = () => {
             <div className="price">
               <div className="money">
                 <p>Ksh</p>
-                <h1>6,000</h1>
+                <h1>7,500</h1>
               </div>
               <p>/Monthly</p>
             </div>
@@ -111,7 +111,7 @@ const Plan = () => {
               </Link>
             </div>
           </div>
-          <div className="pack">
+          {/* <div className="pack">
             <div className="p-head">
               <h2>Business Plan 2</h2>
               <p>For Large Business</p>
@@ -140,7 +140,7 @@ const Plan = () => {
                 <button className="button">Order This Plan</button>
               </Link>
             </div>
-          </div>
+          </div> */}
           <div className="pack">
             <div className="p-head">
               <h2>Corporate Plan</h2>

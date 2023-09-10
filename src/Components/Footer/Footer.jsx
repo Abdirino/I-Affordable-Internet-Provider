@@ -72,6 +72,7 @@ const Footer = () => {
             <i class="fa-brands fa-square-whatsapp"></i>
           </a>
           <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
         </div>
       </div>
     </>

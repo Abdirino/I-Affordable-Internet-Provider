@@ -27,7 +27,7 @@ const HSlider = () => {
             <div className="H-slider1">
               <div className="homeS">
                 <p>Best-in-Class Internet Service Provider</p>
-                <h1>For All Your Internet Needs,</h1>
+                <h1>For All Your Internet Needs</h1>
                 <h1>And High Connectivity.</h1>
                 <div className="perks">
                   <ul>

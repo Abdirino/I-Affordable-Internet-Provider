@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
 
             <div className="drop">
-              <li className="nav-item"><a href="1" style={{ color: 'inherit', textDecoration: 'inherit' }}>Pages</a>
+              <li className="nav-item">Pages
                 <ul id="subMenu">
                   <li className="nav-item">
                     <NavLink
