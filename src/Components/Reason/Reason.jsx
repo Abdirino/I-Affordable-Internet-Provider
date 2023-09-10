@@ -14,7 +14,7 @@ const Reason = () => {
                     <p>Happy Customers</p>
                 </div>
                 <div className="re">
-                    <h2>10</h2>
+                    <h2>10+</h2>
                     <p>Support Services</p>
                 </div>
                 <div className="re">

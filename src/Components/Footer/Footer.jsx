@@ -10,8 +10,7 @@ const Footer = () => {
           <section>
             <h2>Contact Us</h2>
             <li>
-              Set your ambitions with us and watch us deliver you the best there
-              is.
+              Connect with us to experience unparalleled internet service excellence.
             </li>
             <div className="c-info">
               <i class="fa-solid fa-phone"></i>
@@ -47,7 +46,7 @@ const Footer = () => {
             <li>Payment Methods</li>
           </section>
           <section>
-            <h2>Links</h2>
+            <h2>Website Links</h2>
             <Link to='/about' style={{ color: 'inherit', textDecoration: 'inherit' }}>
               <li>About Us</li>
             </Link>
