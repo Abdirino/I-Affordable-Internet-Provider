@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copy-write">
-        <p>©2023 Affordable Internet Access Point | All rights reserved</p>
+        <p>Affordable Internet Access Point © 2023 || All rights reserved</p>
         <div className="social">
           <i class="fa-brands fa-square-facebook"></i>
           <a href="tel: +254 721 107062" style={{ color: 'inherit', textDecoration: 'inherit' }}>

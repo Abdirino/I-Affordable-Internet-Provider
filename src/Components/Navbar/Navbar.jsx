@@ -35,17 +35,48 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/about"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                About Us
-              </NavLink>
-            </li>
+
+            <div className="drop">
+              <li className="nav-item"><a href="1" style={{ color: 'inherit', textDecoration: 'inherit' }}>Pages</a>
+                <ul id="subMenu">
+                  <li className="nav-item">
+                    <NavLink
+                      exact
+                      to="/about"
+                      activeClassName="active"
+                      className="nav-links"
+                      onClick={click ? handleClick : null}
+                    >
+                      About Us
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      exact
+                      to="/package"
+                      activeClassName="active"
+                      className="nav-links"
+                      onClick={click ? handleClick : null}
+                    >
+                      Packages
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      exact
+                      to="/FAQs"
+                      activeClassName="active"
+                      className="nav-links"
+                      onClick={click ? handleClick : null}
+                    >
+                      FAQs
+                    </NavLink>
+                  </li>
+                </ul>
+              </li>
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+
             <li className="nav-item">
               <NavLink
                 exact
@@ -57,17 +88,7 @@ const Navbar = () => {
                 Services
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/package"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Packages
-              </NavLink>
-            </li>
+
             <li className="nav-item">
               <NavLink
                 exact

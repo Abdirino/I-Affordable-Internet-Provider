@@ -75,10 +75,12 @@ section li::marker{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2.4rem 1rem;
 }
 .copy-write p{
     padding: 10px;
+    font-weight: lighter;
+    font-size: 15px;
 }
 .copy-write .social{
     display: flex;

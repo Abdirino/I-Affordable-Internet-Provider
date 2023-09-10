@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .bg {
-  height: 100vh;
+  height: 28vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
     url(../../Images/bg_bggenerator_com.png);
   background-repeat: no-repeat;
   background-position: center;
