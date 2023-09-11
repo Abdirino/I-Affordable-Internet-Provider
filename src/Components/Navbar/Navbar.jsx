@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
 
             <div className="drop">
-              <li className="nav-item">Pages
+              <li className="nav-item"><NavLink className="nav-links">Pages</NavLink>
                 <ul id="subMenu">
                   <li className="nav-item">
                     <NavLink
