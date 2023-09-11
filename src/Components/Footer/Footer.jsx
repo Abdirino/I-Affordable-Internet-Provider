@@ -3,6 +3,10 @@ import "./footer.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+
+  // const year = document.querySelector("#year");
+  // year.innerHTML = new Date().getFullYear();
+
   return (
     <>
       <div className="Footer">
@@ -65,11 +69,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="copy-write">
-        <p>Affordable Internet Access Point © 2023 || All rights reserved</p>
+        <p>Affordable Internet Access Point © <span id="year"></span>2023 || All rights reserved</p>
         <div className="social">
           <i class="fa-brands fa-square-facebook"></i>
           <a href="tel: +254 721 107062" style={{ color: 'inherit', textDecoration: 'inherit' }}>
-            <i class="fa-brands fa-square-whatsapp"></i>
+            <i class="fa-brands fa-square-instagram"></i>
           </a>
           <i class="fa-brands fa-square-twitter"></i>
           <i class="fa-brands fa-linkedin"></i>
