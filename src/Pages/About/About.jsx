@@ -7,11 +7,13 @@ import aboutIMG from "../../Images/IAffordable-About.jpg";
 // import aboutIMG2 from "../../Images/about-four-3-1.png";
 import Reason from "../../Components/Reason/Reason";
 import Advert from "../../Components/Advert/Advert";
+import Background from "../../Components/Background/Background";
 
 const About = () => {
   return (
     <>
       <Navbar />
+      <Background />
       <div className="about">
         <div className="About">
           <div className="about-detail">

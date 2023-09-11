@@ -84,7 +84,7 @@ const Contact = () => {
                 cols="30"
                 rows="10"
               ></textarea>
-              <button type="submit" value="reset" id="btnSubmit" onClick={notify} className="button">Send Message</button>
+              <button type="submit" value="reset" id="btnSubmit" onSubmit={notify} className="button">Send Message</button>
               <ToastContainer />
             </form>
           </div>
