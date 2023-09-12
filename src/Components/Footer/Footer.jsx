@@ -13,16 +13,13 @@ const Footer = () => {
         <div className="footer">
           <section>
             <h2>Contact Us</h2>
-            <li>
-              Connect with us to experience unparalleled internet service excellence.
-            </li>
             <div className="c-info">
               <i class="fa-solid fa-phone"></i>
-              <p>(1) +254 721 107 062</p>
+              <p>(1) +254 721 107062</p>
             </div>
             <div className="c-info">
               <i class="fa-solid fa-phone"></i>
-              <p>(2) +254 721 261 197</p>
+              <p>(2) +254 721 261197</p>
             </div>
             <div className="c-info">
               <i class="fa-solid fa-envelope"></i>
@@ -38,7 +35,6 @@ const Footer = () => {
             <li>Manage My Account</li>
             <li>Payment Information</li>
             <li>Subscriptions</li>
-            <li>Settings</li>
           </section>
           <section>
             <h2>Support Links</h2>
@@ -46,16 +42,13 @@ const Footer = () => {
               <li>FAQs</li>
             </Link>
             <li>Privacy Policy</li>
-            <Link to='/contact' style={{ color: 'inherit', textDecoration: 'inherit' }}>
-              <li>E-Mail Support</li>
-            </Link>
             <li>Payment Methods</li>
           </section>
           <section>
             <h2>Website Links</h2>
-            <Link to='/about' style={{ color: 'inherit', textDecoration: 'inherit' }}>
+            {/* <Link to='/about' style={{ color: 'inherit', textDecoration: 'inherit' }}>
               <li>About Us</li>
-            </Link>
+            </Link> */}
             <Link to='/service' style={{ color: 'inherit', textDecoration: 'inherit' }}>
               <li>IAffordableAP Services</li>
             </Link>

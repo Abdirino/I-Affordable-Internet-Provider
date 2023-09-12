@@ -88,8 +88,8 @@
   font-size: 32px;
 }
 .pack:hover {
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
-  transform: translateY(-3px);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  transform: translateY(-6px);
 }
 .pack:hover .money h1,
 .pack:hover .money p {

@@ -32,23 +32,28 @@
     }
 }
 section h2{
-    font-size: 30px;
+    font-size: 27px;
     padding: 14px 10px;
     color: #0339c1;
 }
 section li{
-    padding: 14px 6px;
+    padding: 11px 6px;
     cursor: pointer;
+    font-size: 14px;
     font-weight: lighter;
     transition: 0.6s ease;
+    letter-spacing: 0.6px;
 }
-@media(max-width: 480px){
+/* @media(max-width: 480px){
     section li{
         font-size: 16px;
     }
-}
+} */
 section p{
+    /* padding: 6px; */
     font-weight: lighter;
+    font-size: 14px;
+    letter-spacing: 0.6px;
 }
 section li:hover{
     color: #2f4c96;
@@ -80,14 +85,14 @@ section li::marker{
 .copy-write p{
     padding: 10px;
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 12px;
 }
 .copy-write .social{
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 10px;
-    font-size: 21px;
+    font-size: 25px;
 }
 .social i{
     cursor: pointer;
