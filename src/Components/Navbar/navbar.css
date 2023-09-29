@@ -31,7 +31,7 @@
   cursor: pointer;
 }
 .logo-img {
-  width: 100px;
+  width: 90px;
   height: 46px;
 }
 .logo-img img {
@@ -43,22 +43,13 @@
   color: red;
   display: none;
 }
-.logo h1 {
-  font-size: 40px;
-  font-family: "Bree Serif", serif;
-  color: black;
-}
-.logo h1 span {
-  color: red;
-  font-family: "Bree Serif", serif;
-}
 .nav-menu {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 1rem 3rem;
+  gap: 1rem 2.4rem;
   padding: 5px;
 }
 .nav-item {
@@ -87,7 +78,7 @@
 }
 .nav-phone h3 {
   font-weight: lighter;
-  font-size: 21px;
+  font-size: 18px;
 }
 .nav-phone a {
   text-decoration: none;

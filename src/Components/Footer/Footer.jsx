@@ -1,6 +1,8 @@
 import React from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
+
 
 const Footer = () => {
 
@@ -9,6 +11,7 @@ const Footer = () => {
 
   return (
     <>
+    <ScrollToTop smooth top='20' color="#0339c1" />
       <div className="Footer">
         <div className="footer">
           <section>

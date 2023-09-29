@@ -79,23 +79,27 @@ section li::marker{
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2.4rem 1rem;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.7rem;
 }
 .copy-write p{
     padding: 10px;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 14px;
 }
 .copy-write .social{
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 10px;
-    font-size: 25px;
+    font-size: 35px;
 }
 .social i{
     cursor: pointer;
+}
+.social i:hover{
+    scale: 1.1;
 }
 @media(max-width: 1090px){
     .copy-write{
