@@ -2,28 +2,37 @@ import { useRef } from "react";
 import "./contact.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
-import emailjs from '@emailjs/browser';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import LocationIMG from "../../Images/IAffordable Location.png";
+import Background from "../../Components/Background/Background";
 
 const Contact = () => {
-
   const form = useRef();
 
   const sendEmail = (e) => {
-    const frm = document.querySelector('#frm');
+    const frm = document.querySelector("#frm");
     e.preventDefault();
 
-    emailjs.sendForm('service_3oviz2h', 'template_9bmaeqd', form.current, 'Pr-4H4xBr6MljTcGR')
-      .then((result) => {
-        console.log(result.text);
-        frm.reset();
-        // console.log("Message sent successfully");
-      }, (error) => {
-        console.log(error.text);
-      });
+    emailjs
+      .sendForm(
+        "service_3oviz2h",
+        "template_9bmaeqd",
+        form.current,
+        "Pr-4H4xBr6MljTcGR"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          frm.reset();
+          // console.log("Message sent successfully");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   const notify = () => toast("Message sent successfully 👌");
@@ -31,9 +40,12 @@ const Contact = () => {
   return (
     <>
       <Navbar />
+      <Background />
       <div className="contacts">
         <div className="contact">
-          <h1>Contact <span>Our Team</span></h1>
+          <h1>
+            Contact <span>Our Team</span>
+          </h1>
           <div className="contact-detail">
             <div className="c-detail">
               <div className="c-icon">
@@ -71,12 +83,33 @@ const Contact = () => {
 
           <div className="form">
             <form id="frm" ref={form} onSubmit={sendEmail} autoComplete="off">
-              {/* <h3>Contact Us</h3> */}
-              <h1>Get <span>Connected</span> Now</h1>
-              <input type="text" required placeholder="Full Name*  e.g Hussein Mohammed" name="from_name" />
-              <input type="number" required placeholder="Phone*  e.g 0708 097 654" name="phone" />
-              <input type="email" required placeholder="E-Mail*  e.g abdi@gmail.com" name="email" />
-              <input type="text" required placeholder="Package*  e.g Home plan" name="package" />
+              <h1>
+                Get <span>Connected</span> Now
+              </h1>
+              <input
+                type="text"
+                required
+                placeholder="Full Name*  e.g Hussein Mohammed"
+                name="from_name"
+              />
+              <input
+                type="number"
+                required
+                placeholder="Phone*  e.g 0708 097 654"
+                name="phone"
+              />
+              <input
+                type="email"
+                required
+                placeholder="E-Mail*  e.g abdi@gmail.com"
+                name="email"
+              />
+              <input
+                type="text"
+                required
+                placeholder="Package*  e.g Home plan"
+                name="package"
+              />
               <textarea
                 name="message"
                 placeholder="Your Message*"
@@ -84,7 +117,15 @@ const Contact = () => {
                 cols="30"
                 rows="10"
               ></textarea>
-              <button type="submit" value="reset" id="btnSubmit" onSubmit={notify} className="button">Send Message</button>
+              <button
+                type="submit"
+                value="reset"
+                id="btnSubmit"
+                onSubmit={notify}
+                className="button"
+              >
+                Send Message
+              </button>
               <ToastContainer />
             </form>
           </div>

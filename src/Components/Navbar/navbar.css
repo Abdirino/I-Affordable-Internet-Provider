@@ -50,7 +50,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 1rem 2.1rem;
+  gap: 1.4rem;
   padding: 5px;
 }
 .nav-item {
@@ -62,6 +62,10 @@
   font-weight: 600 !important;
   letter-spacing: 0.6px;
   cursor: pointer;
+}
+.nav-links.active{
+  color: #0d45be;
+  border-bottom: 4px solid #0d45be;
 }
 /* .nav-links span{
   font-weight: lighter;

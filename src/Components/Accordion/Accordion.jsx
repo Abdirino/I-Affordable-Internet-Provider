@@ -1,21 +1,29 @@
 import React from "react";
-import './accordion.css'
+import "./accordion.css";
+import Reveal from "../Reveal/Reveal";
 
-const Accordion = ({title, active, setActive}) => {
-
+const Accordion = ({ title, active, setActive }) => {
   // const handleActive = () => setActive(!active)
   return (
     <>
-        <div className="accordion" onClick={true ? () => setActive(title) : () => setActive(!title)}>
+      <Reveal>
+        <div
+          className="accordion"
+          onClick={true ? () => setActive(title) : () => setActive(!title)}
+        >
           <div className="acc-head">
             <div className="container">
               <h4>{title}</h4>
               <span>
-                <i className={active === title ? "fa fa-caret-down" : "fa fa-caret-down"}></i>
+                <i
+                  className={
+                    active === title ? "fa fa-caret-down" : "fa fa-caret-down"
+                  }
+                ></i>
               </span>
             </div>
           </div>
-          <div className={( active === title ? "show" : "") + " acc-content"}>
+          <div className={(active === title ? "show" : "") + " acc-content"}>
             <div className="container">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
@@ -25,6 +33,7 @@ const Accordion = ({title, active, setActive}) => {
             </div>
           </div>
         </div>
+      </Reveal>
     </>
   );
 };

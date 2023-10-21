@@ -162,87 +162,61 @@ const Plan = () => {
 
       <div className="included">
         <div className="head">
-          <h1>All Plans Include</h1>
-          <p>
-            Our basic or essential offerings are the same across all
-            subscription levels. However, there might be variations in terms of
-            additional features, usage limits, or premium services available at
-            higher-tier plans.
-          </p>
+          <Reveal>
+            <h1>All Plans Include</h1>
+          </Reveal>
+          <Reveal>
+            <p>
+              Our basic or essential offerings are the same across all
+              subscription levels. However, there might be variations in terms
+              of additional features, usage limits, or premium services
+              available at higher-tier plans.
+            </p>
+          </Reveal>
         </div>
         <div className="include-pack">
-          {/* <div className="i-pack">
-            <div className="i-icon">
-              <i class="fa-solid fa-server"></i>
+          <Reveal>
+            <div className="i-pack">
+              <div className="i-icon">
+                <i class="fa-sharp fa-solid fa-chart-simple"></i>
+              </div>
+              <div className="i-detail">
+                <h3>Upgrade And Downgrade</h3>
+                <p>
+                  Want to modify your plan, increase or decrease it's speed,
+                  features and other aspects.
+                </p>
+              </div>
             </div>
-            <div className="i-detail">
-              <h3>Own FPT Server</h3>
-              <p>
-                At vero eos et accusamus et iusto dignissimosus qui blanditiis
-                praesentium uptatum
-              </p>
+          </Reveal>
+          <Reveal>
+            <div className="i-pack">
+              <div className="i-icon">
+                <i class="fa-sharp fa-solid fa-database"></i>
+              </div>
+              <div className="i-detail">
+                <h3>No Data Limits</h3>
+                <p>
+                  There are no restrictions on the amount of data a customer can
+                  use within a specified period (typically a month).
+                </p>
+              </div>
             </div>
-          </div> */}
-          <div className="i-pack">
-            <div className="i-icon">
-              <i class="fa-sharp fa-solid fa-chart-simple"></i>
+          </Reveal>
+          <Reveal>
+            <div className="i-pack">
+              <div className="i-icon">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div className="i-detail">
+                <h3>Video Streaming</h3>
+                <p>
+                  Watch videos live and streaming without having to download the
+                  entire file beforehand
+                </p>
+              </div>
             </div>
-            <div className="i-detail">
-              <h3>Upgrade And Downgrade</h3>
-              <p>
-                Want to modify your plan, increase or decrease it's speed,
-                features and other aspects.
-              </p>
-            </div>
-          </div>
-          <div className="i-pack">
-            <div className="i-icon">
-              <i class="fa-sharp fa-solid fa-database"></i>
-            </div>
-            <div className="i-detail">
-              <h3>No Data Limits</h3>
-              <p>
-                There are no restrictions on the amount of data a customer can
-                use within a specified period (typically a month).
-              </p>
-            </div>
-          </div>
-          {/* <div className="i-pack">
-            <div className="i-icon">
-              <i class="fa-sharp fa-solid fa-lock"></i>
-            </div>
-            <div className="i-detail">
-              <h3>Lock In Low Rates</h3>
-              <p>
-                At vero eos et accusamus et iusto dignissimosus qui blanditiis
-                praesentium uptatum
-              </p>
-            </div>
-          </div> */}
-          <div className="i-pack">
-            <div className="i-icon">
-              <i class="fa-solid fa-video"></i>
-            </div>
-            <div className="i-detail">
-              <h3>Video Streaming</h3>
-              <p>
-                Watch videos live and streaming without having to download the
-                entire file beforehand
-              </p>
-            </div>
-          </div>
-          {/* <div className="i-pack">
-            <div className="i-icon">
-              <i class="fa-solid fa-right-to-bracket"></i>
-            </div>
-            <div className="i-detail">
-              <h3>Access To All Websites</h3>
-              <p>
-                At vero eos et accusamus et iusto dignissimosus qui blanditiis
-                praesentium uptatum
-              </p>
-            </div>
-          </div> */}
+          </Reveal>
         </div>
       </div>
       <Reason />

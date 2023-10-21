@@ -5,6 +5,7 @@
 }
 .advert{
     padding: 3rem 2rem;
+    border-top: 2px solid grey;
 }
 .ad{
     display: flex;

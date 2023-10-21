@@ -8,6 +8,7 @@ import aboutIMG from "../../Images/IAffordable-About.jpg";
 import Reason from "../../Components/Reason/Reason";
 import Advert from "../../Components/Advert/Advert";
 import Background from "../../Components/Background/Background";
+import Reveal from "../../Components/Reveal/Reveal";
 
 const About = () => {
   return (
@@ -17,22 +18,30 @@ const About = () => {
       <div className="about">
         <div className="About">
           <div className="about-detail">
-            <h2>About Us</h2>
-            <h1>
-              Connecting the World,{" "}
-              <span>One Click at a Time - Your No. 1</span> Internet Solution!
-            </h1>
-            <p>
-              We're dedicated to simplifying Internet access, ensuring
-              connectivity for all through our extensive network. Our vision is
-              to set the industry standard with services that unlock the full
-              potential of the Internet.
-            </p>
-            <ul>
-              <li>Top Quality Service With Affordable Pricing</li>
-              <li>Live Video Streaming With Ultra Fast Speed</li>
-              <li>Exclusive Priority Customer Care</li>
-            </ul>
+            <Reveal>
+              <h2>About Us</h2>
+            </Reveal>
+            <Reveal>
+              <h1>
+                Connecting the World,
+                <span>One Click at a Time - Your No. 1</span> Internet Solution!
+              </h1>
+            </Reveal>
+            <Reveal>
+              <p>
+                We're dedicated to simplifying Internet access, ensuring
+                connectivity for all through our extensive network. Our vision
+                is to set the industry standard with services that unlock the
+                full potential of the Internet.
+              </p>
+            </Reveal>
+            <Reveal>
+              <ul>
+                <li>Top Quality Service With Affordable Pricing</li>
+                <li>Live Video Streaming With Ultra Fast Speed</li>
+                <li>Exclusive Priority Customer Care</li>
+              </ul>
+            </Reveal>
           </div>
           <div className="about-image">
             <img src={aboutIMG} alt="" />
@@ -41,37 +50,44 @@ const About = () => {
       </div>
       <div className="Vision">
         <div className="vision">
-          <div className="v">
-            <h1>
-              Our <span>Vision</span>
-            </h1>
-            <p>
-              "To be the leading and{" "}
-              <span>most trusted Internet Service Provider</span>, empowering
-              individuals and businesses with seamless connectivity, innovation,
-              and exceptional customer experiences."
-            </p>
-          </div>
-          <div className="v">
-            <h1>
-              Our <span>Mission</span>
-            </h1>
-            <p>
-              "We are committed to delivering cutting-edge internet solutions
-              that exceed expectations, innovating with emerging technologies to{" "}
-              <span>lead the industry</span>, and fostering community growth."
-            </p>
-          </div>
-          <div className="v">
-            <h1>
-              Our <span>Goals</span>
-            </h1>
-            <p>
-              "Expand our coverage, enhance <span>speed and reliability</span>,
-              and prioritize customer satisfaction to provide reliable internet
-              solutions for all."
-            </p>
-          </div>
+          <Reveal>
+            <div className="v">
+              <h1>
+                Our <span>Vision</span>
+              </h1>
+              <p>
+                "To be the leading and{" "}
+                <span>most trusted Internet Service Provider</span>, empowering
+                individuals and businesses with seamless connectivity,
+                innovation, and exceptional customer experiences."
+              </p>
+            </div>
+          </Reveal>
+          <Reveal>
+            <div className="v">
+              <h1>
+                Our <span>Mission</span>
+              </h1>
+              <p>
+                "We are committed to delivering cutting-edge internet solutions
+                that exceed expectations, innovating with emerging technologies
+                to <span>lead the industry</span>, and fostering community
+                growth."
+              </p>
+            </div>
+          </Reveal>
+          <Reveal>
+            <div className="v">
+              <h1>
+                Our <span>Goals</span>
+              </h1>
+              <p>
+                "Expand our coverage, enhance <span>speed and reliability</span>
+                , and prioritize customer satisfaction to provide reliable
+                internet solutions for all."
+              </p>
+            </div>
+          </Reveal>
         </div>
       </div>
       <Reason />

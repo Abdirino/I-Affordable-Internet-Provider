@@ -13,8 +13,8 @@ const Home = () => {
     <>
       <Navbar />
       <HSlider />
-      <SAbout />
       <Plan />
+      <SAbout />
       <Quizzes />
       <Advert />
       <Footer />
