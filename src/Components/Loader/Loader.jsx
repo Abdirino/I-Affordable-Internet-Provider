@@ -1,19 +1,11 @@
 import React from "react";
-import './loader.css'
+import "./loader.css";
 
 const Loader = () => {
   return (
     <>
       <div className="loader">
-        <div class="honeycomb">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+        <div class="spinner"></div>
       </div>
     </>
   );
