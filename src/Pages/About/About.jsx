@@ -19,16 +19,16 @@ const About = () => {
           <div className="about-detail">
             <h2>About Us</h2>
             <h1>
-              Connecting the World, <span>One Click at a Time - Your No. 1</span> Internet Solution!
+              Connecting the World,{" "}
+              <span>One Click at a Time - Your No. 1</span> Internet Solution!
             </h1>
             <p>
-              We’re committed to making Internet simple for all clients to
-              connect across our own network. Our vision is to lead the market
-              with services that harness the potential of the Internet.
+              We're dedicated to simplifying Internet access, ensuring
+              connectivity for all through our extensive network. Our vision is
+              to set the industry standard with services that unlock the full
+              potential of the Internet.
             </p>
             <ul>
-              <li>Free Installation</li>
-              <li>Internet Service Solutions</li>
               <li>Top Quality Service With Affordable Pricing</li>
               <li>Live Video Streaming With Ultra Fast Speed</li>
               <li>Exclusive Priority Customer Care</li>
@@ -42,25 +42,34 @@ const About = () => {
       <div className="Vision">
         <div className="vision">
           <div className="v">
-            <h1>Our <span>Vision</span></h1>
-            <p>"To be the leading and <span>most trusted Internet
-              Service Provider</span>, empowering individuals and businesses with seamless connectivity,
-              innovation, and exceptional customer experiences."
+            <h1>
+              Our <span>Vision</span>
+            </h1>
+            <p>
+              "To be the leading and{" "}
+              <span>most trusted Internet Service Provider</span>, empowering
+              individuals and businesses with seamless connectivity, innovation,
+              and exceptional customer experiences."
             </p>
           </div>
           <div className="v">
-            <h1>Our <span>Mission</span></h1>
-            <p>"We are committed to delivering cutting-edge 
-              internet solutions that exceed expectations, 
-              innovating with emerging technologies to <span>lead the 
-              industry</span>, and fostering community growth."
+            <h1>
+              Our <span>Mission</span>
+            </h1>
+            <p>
+              "We are committed to delivering cutting-edge internet solutions
+              that exceed expectations, innovating with emerging technologies to{" "}
+              <span>lead the industry</span>, and fostering community growth."
             </p>
           </div>
           <div className="v">
-            <h1>Our <span>Goals</span></h1>
-            <p>"Expand our coverage, enhance <span>speed and reliability</span>,
-               and prioritize customer satisfaction to provide 
-               reliable internet solutions for all."
+            <h1>
+              Our <span>Goals</span>
+            </h1>
+            <p>
+              "Expand our coverage, enhance <span>speed and reliability</span>,
+              and prioritize customer satisfaction to provide reliable internet
+              solutions for all."
             </p>
           </div>
         </div>

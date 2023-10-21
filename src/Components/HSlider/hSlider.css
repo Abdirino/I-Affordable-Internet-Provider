@@ -5,8 +5,8 @@
   transition: 0.4s ease;
 }
 .H-slider1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url(../../Images/IAffordable\ Home\ 1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(../../Images/IAffordable\ Home\ 3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,20 +21,6 @@
 .H-slider2 {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
     url(../../Images/IAffordable\ Home\ 2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* -webkit-animation: kenburns-top-right 5s infinite ease-out both;
-  animation: kenburns-top-right 5s infinite ease-out both; */
-}
-.H-slider3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url(../../Images/IAffordable\ Home\ 3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -103,7 +89,7 @@
   gap: 0.7rem;
   /* align-items: center; */
   text-align: start;
-  padding: 12px 40px;
+  padding: 12px;
   font-weight: lighter;
 }
 .perks ul li::marker {

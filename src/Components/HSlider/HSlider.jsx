@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 import { Link } from "react-router-dom";
+import Reveal from "../Reveal/Reveal";
 
 const HSlider = () => {
   const settings = {
@@ -26,16 +27,32 @@ const HSlider = () => {
           <div>
             <div className="H-slider1">
               <div className="homeS">
-                <p>Best-in-Class Internet Service Provider</p>
-                <h1>For All Your Internet Needs</h1>
-                <h1>And High Connectivity.</h1>
+                <Reveal>
+                  <p>Best-in-Class Internet Service Provider</p>
+                </Reveal>
+                <Reveal>
+                  <h1>For All Your Internet Needs</h1>
+                </Reveal>
+                <Reveal>
+                  <h1>And High Connectivity.</h1>
+                </Reveal>
                 <div className="perks">
                   <ul>
-                    <li>Free Installation</li>
-                    <li>Internet Service Solutions</li>
-                    <li>Top Quality Service With Affordable Pricing</li>
-                    <li>Live Video Streaming With Ultra Fast Speed</li>
-                    <li>Exclusive Priority Customer Care</li>
+                    <Reveal>
+                      <li>💠Free Installation</li>
+                    </Reveal>
+                    <Reveal>
+                      <li>💠Internet Service Solutions</li>
+                    </Reveal>
+                    <Reveal>
+                      <li>💠Top Quality Service With Affordable Pricing</li>
+                    </Reveal>
+                    <Reveal>
+                      <li>💠Live Video Streaming With Ultra Fast Speed</li>
+                    </Reveal>
+                    <Reveal>
+                      <li>💠Exclusive Priority Customer Care</li>
+                    </Reveal>
                   </ul>
                 </div>
               </div>
@@ -45,12 +62,20 @@ const HSlider = () => {
           <div>
             <div className="H-slider2">
               <div className="homeS">
-                <p>Affordable High-Speed Connections</p>
-                <h1>Quality Home Connection</h1>
-                <h1>With Affordable Budget-Friendly Plans.</h1>
-                <Link to="/package">
-                  <button className="button">Explore Plans</button>
-                </Link>
+                <Reveal>
+                  <p>Affordable High-Speed Connections</p>
+                </Reveal>
+                <Reveal>
+                  <h1>Quality Home Connection</h1>
+                </Reveal>
+                <Reveal>
+                  <h1>With Affordable Budget-Friendly Plans.</h1>
+                </Reveal>
+                <Reveal>
+                  <Link to="/package">
+                    <button className="button">Explore Plans</button>
+                  </Link>
+                </Reveal>
               </div>
             </div>
           </div>
