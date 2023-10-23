@@ -39,19 +39,19 @@ const HSlider = () => {
                 <div className="perks">
                   <ul>
                     <Reveal>
-                      <li>💠Free Installation</li>
+                      <li>💠 Free Installation</li>
                     </Reveal>
                     <Reveal>
-                      <li>💠Internet Service Solutions</li>
+                      <li>💠 Internet Service Solutions</li>
                     </Reveal>
                     <Reveal>
-                      <li>💠Top Quality Service With Affordable Pricing</li>
+                      <li>💠 Top Quality Service With Affordable Pricing</li>
                     </Reveal>
                     <Reveal>
-                      <li>💠Live Video Streaming With Ultra Fast Speed</li>
+                      <li>💠 Live Video Streaming With Ultra Fast Speed</li>
                     </Reveal>
                     <Reveal>
-                      <li>💠Exclusive Priority Customer Care</li>
+                      <li>💠 Exclusive Priority Customer Care</li>
                     </Reveal>
                   </ul>
                 </div>

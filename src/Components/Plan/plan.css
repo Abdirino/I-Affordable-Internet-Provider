@@ -68,7 +68,7 @@
   color: #0339c1;
 }
 .p-detail li::marker {
-  content: "🔹 ";
+  content: "🔹";
 }
 
 .price p {

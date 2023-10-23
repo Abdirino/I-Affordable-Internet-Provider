@@ -14,7 +14,7 @@
   padding: 0.4rem 1rem;
   box-shadow: 0px 0.1em 0.2em rgba(0, 0, 0, 0.09),
     0px 0.4em 0.7em -0.1em rgba(0, 0, 0, 0.09);
-  background: rgba(255, 255, 255, 0.94);
+  background: rgba(255, 255, 255);
   position: fixed;
   z-index: 1000;
 }
@@ -43,6 +43,7 @@
   color: red;
   cursor: pointer;
   display: none;
+  font-size: 14px;
 }
 .nav-menu {
   display: flex;

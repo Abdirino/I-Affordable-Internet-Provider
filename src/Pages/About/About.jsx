@@ -3,8 +3,7 @@ import "./about.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 
-import aboutIMG from "../../Images/IAffordable-About.jpg";
-// import aboutIMG2 from "../../Images/about-four-3-1.png";
+import aboutIMG from "../../Images/About IMG.jpg";
 import Reason from "../../Components/Reason/Reason";
 import Advert from "../../Components/Advert/Advert";
 import Background from "../../Components/Background/Background";
@@ -37,9 +36,9 @@ const About = () => {
             </Reveal>
             <Reveal>
               <ul>
-                <li>Top Quality Service With Affordable Pricing</li>
-                <li>Live Video Streaming With Ultra Fast Speed</li>
-                <li>Exclusive Priority Customer Care</li>
+                <li>💠 Top Quality Service With Affordable Pricing</li>
+                <li>💠 Live Video Streaming With Ultra Fast Speed</li>
+                <li>💠 Exclusive Priority Customer Care</li>
               </ul>
             </Reveal>
           </div>

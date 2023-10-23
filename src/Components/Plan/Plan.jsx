@@ -16,9 +16,8 @@ const Plan = () => {
           </Reveal>
           <Reveal>
             <p>
-              When choosing among the best high speed Internet providers, there
-              are several other factors that should be taken into consideration
-              besides just the available download speeds.
+              When picking a high-speed Internet plan, consider download
+              speeds, reliability, pricing, customer service, and local coverage
             </p>
           </Reveal>
         </div>
