@@ -30,7 +30,7 @@ const Contact = () => {
           // console.log("Message sent successfully");
         },
         (error) => {
-          console.log(error.text);
+          // console.log(error.text);
         }
       );
   };
