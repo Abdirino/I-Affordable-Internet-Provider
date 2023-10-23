@@ -21,13 +21,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="manifest" href="manifest.json" />
     <link rel="website icon" type="png" href="IAffordable-Logo.png" />
     <title>
       Affordable Internet Access Point - Connecting the World, One Click at a
@@ -36,17 +33,5 @@
   </head>
   <body>
     <div id="root"></div>
-
-    <script>
-      if('serviceWorker' in navigator){
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./serviceWorker.js').then((reg)=> {
-            console.log("worker Registered");
-          }).catch((err) => {
-            console.log("Error in Service Worker", err);
-          })
-        })
-      }
-    </script>
   </body>
 </html>
