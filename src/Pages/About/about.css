@@ -10,7 +10,7 @@
 .About {
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 6rem;
 }
 .about-detail {
   display: flex;
