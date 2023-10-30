@@ -3,7 +3,7 @@ import "./about.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 
-import aboutIMG from "../../Images/About IMG.jpg";
+import aboutIMG from "../../Images/AboutSec.webp";
 import Reason from "../../Components/Reason/Reason";
 import Advert from "../../Components/Advert/Advert";
 import Background from "../../Components/Background/Background";

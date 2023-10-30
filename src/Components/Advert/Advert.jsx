@@ -1,7 +1,7 @@
 import React from "react";
 import "./advert.css";
 
-import advertIMG from "../../Images/about-four-3-1.png";
+import advertIMG from "../../Images/AdvertSec.webp";
 import { Link } from "react-router-dom";
 import Reveal from "../Reveal/Reveal";
 
