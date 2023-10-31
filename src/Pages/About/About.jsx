@@ -5,10 +5,10 @@ import Footer from "../../Components/Footer/Footer";
 
 import aboutIMG from "../../Images/AboutSec.webp";
 import Reason from "../../Components/Reason/Reason";
-import Advert from "../../Components/Advert/Advert";
 import Background from "../../Components/Background/Background";
 import Reveal from "../../Components/Reveal/Reveal";
 import { Partytown } from "@builder.io/partytown/react";
+import Quizzes from "../../Components/Quizzes/Quizzes";
 
 const About = () => {
   return (
@@ -119,7 +119,7 @@ const About = () => {
           <source />
         </video>
       </div> */}
-      <Advert />
+      <Quizzes />
       <Footer />
     </>
   );
