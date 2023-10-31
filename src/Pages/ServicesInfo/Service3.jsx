@@ -9,10 +9,12 @@ import ServiceIMG3 from "../../Images/Service-3.png";
 import { Link } from "react-router-dom";
 import Background from "../../Components/Background/Background";
 import Reveal from "../../Components/Reveal/Reveal";
+import { Partytown } from "@builder.io/partytown/react";
 
 const Service3 = () => {
   return (
     <>
+      <Partytown debug={true} forward={['dataLayer.push']} />
       <Navbar />
       <Background />
       <div className="Services">

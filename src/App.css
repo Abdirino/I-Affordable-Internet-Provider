@@ -15,6 +15,7 @@
 }
 .App p, ul , li, a{
   font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.2px;
 }
 .App h1, h2 , h3 , h4, span{
   font-family: Exo;

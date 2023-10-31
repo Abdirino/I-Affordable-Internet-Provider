@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import LocationIMG from "../../Images/IAffordable Location.png";
 import Background from "../../Components/Background/Background";
+import { Partytown } from "@builder.io/partytown/react";
 
 const Contact = () => {
   const form = useRef();
@@ -39,6 +40,7 @@ const Contact = () => {
 
   return (
     <>
+      <Partytown debug={true} forward={['dataLayer.push']} />
       <Navbar />
       <Background />
       <div className="contacts">

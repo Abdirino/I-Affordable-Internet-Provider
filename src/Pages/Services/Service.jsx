@@ -6,10 +6,12 @@ import Quizzes from "../../Components/Quizzes/Quizzes";
 import Advert from "../../Components/Advert/Advert";
 import { Link } from "react-router-dom";
 import Reveal from "../../Components/Reveal/Reveal";
+import { Partytown } from "@builder.io/partytown/react";
 
 const Service = () => {
   return (
     <>
+      <Partytown debug={true} forward={['dataLayer.push']} />
       <Navbar />
       <div className="services">
         <div className="service">
@@ -74,7 +76,6 @@ const Service = () => {
         </div>
       </div>
       <Advert />
-      <Quizzes />
       <Footer />
     </>
   );
