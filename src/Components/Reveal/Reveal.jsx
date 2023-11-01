@@ -16,7 +16,7 @@ const Reveal = ({ children }) => {
 
   return (
     <div
-      ref={ref} style={{ position: "relative", overflow: "hidden", width: "fit-content" }}
+      ref={ref} style={{ position: "relative", overflow: "hidden" }}
     >
       <motion.div
         variants={{

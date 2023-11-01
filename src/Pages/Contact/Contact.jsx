@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import LocationIMG from "../../Images/IAffordable Location.png";
 import Background from "../../Components/Background/Background";
 import { Partytown } from "@builder.io/partytown/react";
+import Reveal from "../../Components/Reveal/Reveal";
 
 const Contact = () => {
   const form = useRef();
@@ -40,7 +41,7 @@ const Contact = () => {
 
   return (
     <>
-      <Partytown debug={true} forward={['dataLayer.push']} />
+      <Partytown debug={true} forward={["dataLayer.push"]} />
       <Navbar />
       <Background />
       <div className="contacts">
@@ -88,46 +89,59 @@ const Contact = () => {
               <h1>
                 Get <span>Connected</span> Now
               </h1>
-              <input
-                type="text"
-                required
-                placeholder="Full Name*  e.g Hussein Mohammed"
-                name="from_name"
-              />
-              <input
-                type="number"
-                required
-                placeholder="Phone*  e.g 0708 097 654"
-                name="phone"
-              />
-              <input
-                type="email"
-                required
-                placeholder="E-Mail*  e.g abdi@gmail.com"
-                name="email"
-              />
-              <input
-                type="text"
-                required
-                placeholder="Package*  e.g Home plan"
-                name="package"
-              />
-              <textarea
-                name="message"
-                placeholder="Your Message*"
-                required
-                cols="30"
-                rows="10"
-              ></textarea>
-              <button
-                type="submit"
-                value="reset"
-                id="btnSubmit"
-                onSubmit={notify}
-                className="button"
-              >
-                Send Message
-              </button>
+              <Reveal>
+                <input
+                  type="text"
+                  required
+                  placeholder="Full Name*  e.g Hussein Mohammed"
+                  name="from_name"
+                />
+              </Reveal>
+              <Reveal>
+                <input
+                  type="number"
+                  required
+                  placeholder="Phone*  e.g 0708 097 654"
+                  name="phone"
+                />
+              </Reveal>
+              <Reveal>
+                <input
+                  type="email"
+                  required
+                  placeholder="E-Mail*  e.g abdi@gmail.com"
+                  name="email"
+                />
+              </Reveal>
+              <Reveal>
+                <input
+                  type="text"
+                  required
+                  placeholder="Package*  e.g Home plan"
+                  name="package"
+                />
+              </Reveal>
+              <Reveal>
+                <textarea
+                  name="message"
+                  placeholder="Your Message*"
+                  required
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </Reveal>
+              <Reveal>
+                <button
+                  type="submit"
+                  value="reset"
+                  id="btnSubmit"
+                  onSubmit={notify}
+                  className="button"
+                >
+                  Send Message
+                </button>
+              </Reveal>
+
               <ToastContainer />
             </form>
           </div>
