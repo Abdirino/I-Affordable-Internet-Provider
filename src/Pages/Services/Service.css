@@ -22,7 +22,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    flex: 1 1 450px;
+    width: 350px;
+    flex: 1 1 350px;
     padding: 1rem;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
@@ -64,7 +65,11 @@
     font-size: 17px;
 }
 .s-info .learn:hover{
-    letter-spacing: 1px;
+    color: white;
+    background: #2f4c96;
+}
+.s-info .learn:hover i{
+    color: white !important;
 }
 
 @media(min-width: 1768px){

@@ -204,7 +204,7 @@ li:hover ul#subMenu {
 }
 @media (min-width: 1800px) {
   .nav-item a {
-    font-size: 25px;
+    font-size: 18px;
   }
   .logo-img {
     width: 145px;
