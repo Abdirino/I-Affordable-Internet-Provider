@@ -57,10 +57,8 @@ const About = () => {
                 Our <span>Vision</span>
               </h1>
               <p>
-                "To be the leading and{" "}
-                <span>most trusted Internet Service Provider</span>, empowering
-                individuals and businesses with seamless connectivity,
-                innovation, and exceptional customer experiences."
+                "To be the leading and <span>most trusted Internet Service Provider</span>, empowering
+                individuals and businesses with seamless connectivity and exceptional customer experiences."
               </p>
             </div>
           </Reveal>
