@@ -1,6 +1,7 @@
 {
   "name": "i-affordable",
   "version": "0.1.0",
+  "homepage": "https://iaffordablenetsp.co.ke/",
   "private": true,
   "dependencies": {
     "@builder.io/partytown": "^0.8.1",
