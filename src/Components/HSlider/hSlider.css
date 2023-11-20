@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
 }
-.H-slider2 {
+/* .H-slider2 {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
     url(../../Images/iAffordableHome2.webp);
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .homeS {
   display: flex;

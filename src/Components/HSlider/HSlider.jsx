@@ -59,7 +59,7 @@ const HSlider = () => {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <div className="H-slider2">
               <div className="homeS">
                 <Reveal>
@@ -78,7 +78,7 @@ const HSlider = () => {
                 </Reveal>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <div>
             <div className="H-slider3">

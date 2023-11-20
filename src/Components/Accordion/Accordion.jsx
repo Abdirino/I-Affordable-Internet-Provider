@@ -2,7 +2,7 @@ import React from "react";
 import "./accordion.css";
 import Reveal from "../Reveal/Reveal";
 
-const Accordion = ({ title, active, setActive }) => {
+const Accordion = ({ title, active, setActive, answer }) => {
   // const handleActive = () => setActive(!active)
   return (
     <>
@@ -26,6 +26,7 @@ const Accordion = ({ title, active, setActive }) => {
           <div className={(active === title ? "show" : "") + " acc-content"}>
             <div className="container">
               <p>
+                {answer}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
                 quae quam, veritatis alias esse, quis repellat earum corporis
                 reiciendis.

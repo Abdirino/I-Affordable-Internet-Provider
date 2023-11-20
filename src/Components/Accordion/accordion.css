@@ -48,7 +48,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: start;
 }
 .acc-content .container p {
   font-size: 16px;
@@ -66,11 +66,11 @@
   .acc-head p {
     letter-spacing: 1.2px;
     font-weight: 440;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 .acc-content.show {
-  height: 175px;
+  height: 125px;
   opacity: 1;
 }
