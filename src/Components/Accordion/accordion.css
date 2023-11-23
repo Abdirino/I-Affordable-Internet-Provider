@@ -41,7 +41,7 @@
   align-items: center;
   overflow: hidden;
   transition: all 600ms ease-in-out;
-  padding: 5px 15px;
+  padding: 5px;
 }
 .acc-content .container {
   padding: 1rem;
@@ -57,9 +57,21 @@
   color: black;
   width: auto;
 }
-@media (max-width: 768px) {
+.acc-content.show {
+  height: 175px;
+  opacity: 1;
+}
+.acc-content.hide {
+  height: 0;
+  opacity: 0;
+}
+@media (max-width: 968px) {
   .acc-content .container p {
     width: auto;
+  }
+  .acc-content.show {
+    height: 275px;
+    opacity: 1;
   }
 }
 @media (max-width: 468px) {
@@ -70,7 +82,3 @@
   }
 }
 
-.acc-content.show {
-  height: 125px;
-  opacity: 1;
-}

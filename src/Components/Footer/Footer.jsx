@@ -26,7 +26,7 @@ const Footer = () => {
               </div>
               <div className="c-info">
                 <i class="fa-solid fa-envelope"></i>
-                <p>internetaffordable@gmail.com</p>
+                <p>support@iaffordablenetsp.co.ke</p>
               </div>
               <div className="c-info">
                 <i class="fa-solid fa-location-dot"></i>
@@ -52,7 +52,12 @@ const Footer = () => {
                 <li>FAQs</li>
               </Link>
               <li>Privacy Policy</li>
-              <li>Payment Methods</li>
+              <Link
+                to="/Package"
+                style={{ color: "inherit", textDecoration: "inherit" }}
+              >
+                <li>Payment Options</li>
+              </Link>
             </section>
           </Reveal>
           <Reveal>
@@ -97,7 +102,7 @@ const Footer = () => {
               href="tel: +254 721 107062"
               style={{ color: "inherit", textDecoration: "inherit" }}
             >
-              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-square-whatsapp"></i>
             </a>
             <i class="fa-brands fa-square-twitter"></i>
             <i class="fa-brands fa-linkedin"></i>

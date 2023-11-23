@@ -52,12 +52,13 @@ const Contact = () => {
           <div className="contact-detail">
             <div className="c-detail">
               <div className="c-icon">
-                <i class="fa-solid fa-location-dot"></i>
+                <i class="fa-solid fa-envelope"></i>
               </div>
-              <h2>Address</h2>
-              <p>Al-Yusra Building</p>
-              <p>Moyale Town, KENYA</p>
+              <h2>E-Mail</h2>
+              <p>support@iaffordablenetsp.co.ke</p>
+              <p>abdulaziz@iaffordablenetsp.co.ke</p>
             </div>
+
             <div className="c-detail">
               <div className="c-icon">
                 <i class="fa-solid fa-phone"></i>
@@ -66,22 +67,23 @@ const Contact = () => {
               <p>+254 721 107 062</p>
               <p>+254 721 261 197</p>
             </div>
+
             <div className="c-detail">
               <div className="c-icon">
-                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-location-dot"></i>
               </div>
-              <h2>E-Mail</h2>
-              <p>ahash8@gmail.com</p>
-              <p>affordableinternet@gmail.com</p>
+              <h2>Address</h2>
+              <p>Al-Yusra Building</p>
+              <p>Moyale Town, KENYA</p>
             </div>
-            <div className="c-detail">
+            {/* <div className="c-detail">
               <div className="c-icon">
                 <i class="fa-solid fa-clock"></i>
               </div>
               <h2>Opening Hours</h2>
               <p>Weekdays 9am - 5pm</p>
               <p>Weekend 9am - 1pm</p>
-            </div>
+            </div> */}
           </div>
 
           <div className="form">

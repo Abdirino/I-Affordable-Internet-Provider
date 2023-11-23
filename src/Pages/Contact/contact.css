@@ -25,10 +25,10 @@
 .contact-detail {
   padding: 2rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   justify-content: center;
   align-items: center;
-  gap: 1.4rem;
+  gap: 1.7rem;
 }
 .contact-detail .c-detail {
   padding: 1.3rem;
