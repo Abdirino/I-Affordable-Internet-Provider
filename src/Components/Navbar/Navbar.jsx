@@ -32,7 +32,10 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                Home
+                <div className="icon">
+                  <i class="fa-solid fa-house"></i>
+                  <p>Home</p>
+                </div>
               </NavLink>
             </li>
             <li className="nav-item">
@@ -43,20 +46,12 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                About Us
+                <div className="icon">
+                  <i class="fa-solid fa-circle-info"></i>
+                  <p>About</p>
+                </div>
               </NavLink>
             </li>
-            {/* <li className="nav-item">
-              <NavLink
-                exact
-                to="/package"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Packages
-              </NavLink>
-            </li> */}
             <li className="nav-item">
               <NavLink
                 exact
@@ -65,7 +60,10 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                Services
+                <div className="icon">
+                  <i class="fa-solid fa-briefcase"></i>
+                  <p>Services</p>
+                </div>
               </NavLink>
             </li>
 
@@ -77,7 +75,10 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                FAQs
+                <div className="icon">
+                  <i class="fa-solid fa-circle-question"></i>
+                  <p>FAQs</p>
+                </div>
               </NavLink>
             </li>
 
@@ -89,7 +90,10 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                Contact
+                <div className="icon">
+                  <i class="fa-solid fa-phone"></i>
+                  <p>Contacts</p>
+                </div>
               </NavLink>
             </li>
           </ul>

@@ -90,7 +90,7 @@ const Quizzes = () => {
               active={active}
               setActive={setActive}
             />
-            <Accordion
+            {/* <Accordion
               title="How soon can I get my internet/wifi installed?"
               active={active}
               setActive={setActive}
@@ -99,7 +99,7 @@ const Quizzes = () => {
               title="Can I use my own modem/router?"
               active={active}
               setActive={setActive}
-            />
+            /> */}
           </div>
         </div>
       </div>
