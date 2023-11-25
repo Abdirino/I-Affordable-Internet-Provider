@@ -5,7 +5,7 @@
   transition: 0.4s ease;
 }
 .H-slider1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../../Images/iAffordableHome1.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -40,7 +40,7 @@
 .homeS p {
   font-size: 19px;
   padding: 15px 10px;
-  font-weight: bold;
+  font-weight: lighter;
 }
 .homeS h1 {
   padding: 0 10px;
@@ -56,7 +56,7 @@
   gap: 0.7rem;
   /* align-items: center; */
   text-align: start;
-  padding: 12px;
+  padding: 12px 6px;
   font-weight: lighter;
 }
 .perks ul li::marker {

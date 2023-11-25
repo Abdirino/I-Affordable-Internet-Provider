@@ -5,7 +5,7 @@
   transition: 0.4s ease;
 }
 .about {
-  padding: 8rem 5rem 2rem 5rem;
+  padding: 6rem 5rem 2rem 5rem;
 }
 .About {
   display: flex;
@@ -26,14 +26,14 @@
   color: #0339c1;
 }
 .about-detail h1 {
-  font-size: 40px;
+  font-size: 35px;
   padding: 10px 0;
 }
 .about-detail h1 span {
   color: #0339c1;
 }
 .about-detail p {
-  font-size: 19px;
+  font-size: 14px;
   font-weight: lighter;
   padding: 10px 0;
 }

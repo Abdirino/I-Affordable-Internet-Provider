@@ -11,13 +11,14 @@ const Plan = () => {
         <div className="head">
           <Reveal>
             <h1>
-              Choose <span>Affordable</span> Packages
+              Choose <span>Your</span> Best <span>Plans</span>.
             </h1>
           </Reveal>
           <Reveal>
             <p>
-              When picking a high-speed Internet plan, consider download
-              speeds, reliability, pricing, customer service, and local coverage
+              IAffordableNet has always been dedicated to providing fast, reliable and
+              affordable internet services to our customers, becoming a trusted
+              name in the ISP industry in Kenya.
             </p>
           </Reveal>
         </div>

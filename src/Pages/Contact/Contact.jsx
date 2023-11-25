@@ -76,14 +76,6 @@ const Contact = () => {
               <p>Al-Yusra Building</p>
               <p>Moyale Town, KENYA</p>
             </div>
-            {/* <div className="c-detail">
-              <div className="c-icon">
-                <i class="fa-solid fa-clock"></i>
-              </div>
-              <h2>Opening Hours</h2>
-              <p>Weekdays 9am - 5pm</p>
-              <p>Weekend 9am - 1pm</p>
-            </div> */}
           </div>
 
           <div className="form">
@@ -146,11 +138,20 @@ const Contact = () => {
 
               <ToastContainer />
             </form>
-          </div>
-
-          <div className="location">
-            <div className="l-image">
-              <img src={LocationIMG} alt="" />
+            <div className="location">
+              <h1>Real <span>Time</span> Location</h1>
+              <div className="l-image">
+                <iframe
+                  className="iframe"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.2847458404513!2d39.05537007376088!3d3.521518496452762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1795b740b84b1ddd%3A0x45f4fb8b05bf36b4!2sAl%20Yusra%20Hotel!5e0!3m2!1sen!2ske!4v1700925254489!5m2!1sen!2ske"
+                  // width="auto"
+                  // height="auto"
+                  style={{ border: "0" }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  title="Google Map"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>

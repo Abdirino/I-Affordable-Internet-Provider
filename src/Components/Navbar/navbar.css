@@ -30,8 +30,8 @@
   cursor: pointer;
 }
 .logo-img {
-  width: 60px;
-  height: 40px;
+  width: 54px;
+  height: 42px;
 }
 .logo-img img {
   width: 100%;
@@ -109,19 +109,22 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
     background: white;
     height: auto;
     position: absolute;
     top: 65px;
     left: -110%;
     opacity: 0;
-    /* align-items: stretch; */
+    align-items: stretch;
     padding: 35px 0 30px 0;
     transition: 0.7s ease;
     filter: blur(4px);
+    border-bottom: 2px solid rgba(133, 132, 132, 0.5);
+    border-right: 2px solid rgba(132, 132, 132, 0.5);
+    border-radius: 0 0 24px 0;
   }
   .nav-menu.active {
     left: 0;
@@ -133,6 +136,9 @@
   }
   .nav-links{
     font-size: 10px;
+  }
+  .icon{
+    padding: 8px 100px;
   }
 }
 

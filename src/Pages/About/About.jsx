@@ -24,16 +24,13 @@ const About = () => {
             </Reveal>
             <Reveal>
               <h1>
-                Connecting the World,
-                <span>One Click at a Time - Your No. 1</span> Internet Solution!
+                Elevate Your Digital Experience: <span>IAffordableNet</span>, Where Speed
+                Meets <span>Innovation.</span>
               </h1>
             </Reveal>
             <Reveal>
               <p>
-                We're dedicated to simplifying Internet access, ensuring
-                connectivity for all through our extensive network. Our vision
-                is to set the industry standard with services that unlock the
-                full potential of the Internet.
+                Upgrade
               </p>
             </Reveal>
             <Reveal>
@@ -57,8 +54,10 @@ const About = () => {
                 Our <span>Vision</span>
               </h1>
               <p>
-                "To be the leading and <span>most trusted Internet Service Provider</span>, empowering
-                individuals and businesses with seamless connectivity and exceptional customer experiences."
+                "To be the leading and{" "}
+                <span>most trusted Internet Service Provider</span>, empowering
+                individuals and businesses with seamless connectivity and
+                exceptional customer experiences."
               </p>
             </div>
           </Reveal>
