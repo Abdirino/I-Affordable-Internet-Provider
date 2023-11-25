@@ -66,6 +66,20 @@ const Navbar = () => {
                 </div>
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/package"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                <div className="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <p>Plans</p>
+                </div>
+              </NavLink>
+            </li>
 
             <li className="nav-item">
               <NavLink
