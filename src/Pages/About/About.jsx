@@ -24,21 +24,33 @@ const About = () => {
             </Reveal>
             <Reveal>
               <h1>
-                Elevate Your Digital Experience: <span>IAffordableNet</span>, Where Speed
-                Meets <span>Innovation.</span>
+                Elevate Your <span>Digital</span> Experience:{" "}
+                <span>IAffordableNet</span>, Where Speed Meets{" "}
+                <span>Innovation.</span>
               </h1>
             </Reveal>
             <Reveal>
               <p>
-                Upgrade
+                Upgrade to lightning fast internet speed and unlock a world of
+                seamless online experience with our high speed internet solution.
               </p>
             </Reveal>
             <Reveal>
-              <ul>
-                <li>💠 Top Quality Service With Affordable Pricing</li>
-                <li>💠 Live Video Streaming With Ultra Fast Speed</li>
-                <li>💠 Exclusive Priority Customer Care</li>
-              </ul>
+              <div className="about-head">
+                <i class="fa-solid fa-check-to-slot"></i>
+                <h3>Reliable and Fast Internet</h3>
+              </div>
+              <li>💠 Get a reliable and high-speed internet connection.</li>
+              <li>💠 Transparent pricing with no hidden fees.</li>
+            </Reveal>
+            <Reveal>
+              <div className="about-head">
+                <i class="fa-solid fa-check-to-slot"></i>
+                <h3>Exceptional Support</h3>
+              </div>
+              <li>💠 12/7 customer support.</li>
+              <li>💠 Transparent policies and practices.</li>
+              <li>💠 Diverse plans to meet different needs.</li>
             </Reveal>
           </div>
           <div className="about-image">

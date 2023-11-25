@@ -11,8 +11,8 @@
 .header {
   width: 100%;
   padding: 0.4rem 1rem;
-  box-shadow: 0px 0.1em 0.2em rgba(0, 0, 0, 0.09),
-    0px 0.4em 0.7em -0.1em rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 0.1em 0.2em rgba(0, 0, 0, 0.06),
+    0px 0.4em 0.7em -0.1em rgba(0, 0, 0, 0.06);
   background: rgba(255, 255, 255);
   position: fixed;
   z-index: 1000;
@@ -30,7 +30,7 @@
   cursor: pointer;
 }
 .logo-img {
-  width: 54px;
+  width: 69px;
   height: 42px;
 }
 .logo-img img {
@@ -50,8 +50,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 0.6rem;
-  padding: 2px;
+  gap: 0.8rem;
+  /* padding: 2px; */
 }
 .nav-item {
   padding: 0.2rem;

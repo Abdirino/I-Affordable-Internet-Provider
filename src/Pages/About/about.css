@@ -36,17 +36,21 @@
   font-size: 14px;
   font-weight: lighter;
   padding: 10px 0;
+  padding-bottom: 2rem;
 }
-.about-detail ul {
-  padding: 6px 0;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  gap: 0.7rem;
-  text-align: start;
-}
-.about-detail ul li {
+.about-detail li{
   font-weight: lighter;
+  padding: 4px 2rem;
+}
+.about-head{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 19px;
+  padding: 6px 0;
+}
+.about-head i{
+  color: #0359c1;
 }
 
 .about-image {
