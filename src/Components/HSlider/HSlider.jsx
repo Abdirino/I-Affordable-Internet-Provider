@@ -7,6 +7,7 @@ import Slider from "react-slick";
 
 import { Link } from "react-router-dom";
 import Reveal from "../Reveal/Reveal";
+import homeIMG from "../../Images/iAffordableHome1.webp";
 
 const HSlider = () => {
   const settings = {
@@ -37,7 +38,14 @@ const HSlider = () => {
                   <h1>And High Connectivity.</h1>
                 </Reveal>
                 <div className="perks">
-                  <ul>
+                  <p>
+                    Experience seamless connectivity tailored just for you! Dive
+                    into a world where streaming, working, and playing are a
+                    lag-free delight with our standard speedy internet packages,
+                    ensuring a swift and smooth experience for all your online
+                    activities.
+                  </p>
+                  {/* <ul>
                     <Reveal>
                       <li>💠 Top Quality Service With Affordable Pricing</li>
                     </Reveal>
@@ -47,11 +55,16 @@ const HSlider = () => {
                     <Reveal>
                       <li>💠 Exclusive Priority Customer Care</li>
                     </Reveal>
-                  </ul>
+                  </ul> */}
                 </div>
-                <Reveal>
-                  <button className="button">Start Now</button>
-                </Reveal>
+                <div className="home-links">
+                  <Reveal>
+                    <button className="button">Start Now</button>
+                  </Reveal>
+                  <Reveal>
+                    <span className="home-video"><i class="fa-solid fa-play"></i>WATCH VIDEO</span>
+                  </Reveal>
+                </div>
               </div>
             </div>
           </div>

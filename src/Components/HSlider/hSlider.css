@@ -5,16 +5,17 @@
   transition: 0.4s ease;
 }
 .H-slider1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(../../Images/iAffordableHome1.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 6rem;
 }
 /* .H-slider2 {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
@@ -40,7 +41,7 @@
 .homeS p {
   font-size: 19px;
   padding: 15px 10px;
-  font-weight: lighter;
+  font-weight: bold;
 }
 .homeS h1 {
   padding: 0 10px;
@@ -50,17 +51,42 @@
 .homeS .button {
   margin: 25px 10px !important;
 }
-.homeS .perks ul {
+.homeS .perks p {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-  /* align-items: center; */
+  width: 700px;
+  font-size: 15px;
   text-align: start;
-  padding: 12px 6px;
+  padding: 21px 0 1.4rem 10px;
   font-weight: lighter;
 }
-.perks ul li::marker {
-  content: "🔷 ";
+.home-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.home-links .home-video {
+  padding: 0.9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  /* clip-path: circle(50% at 50% 50%); */
+  overflow: hidden;
+  border-radius: 4px;
+  color: whitesmoke;
+  background: #0359c1;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  border: none;
+  font-family: Exo;
+  letter-spacing: 3px;
+}
+.home-video:hover {
+  color: #0359c1;
+  background: whitesmoke;
 }
 @media (min-width: 1600px) {
   .homeS h1 {
@@ -95,7 +121,7 @@
     font-size: 29px;
     width: auto !important;
   }
-  .perks ul li{
+  .perks ul li {
     font-size: 13px;
   }
 }
@@ -106,16 +132,18 @@
   color: white !important;
 }
 
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   display: block !important;
   cursor: pointer;
 }
 .slick-prev::before {
-  content: '←';
+  content: "←";
 }
 
-.slick-prev::before, .slick-next::before {
-  font-family: 'slick';
+.slick-prev::before,
+.slick-next::before {
+  font-family: "slick";
   font-size: 50px;
   line-height: 1;
   opacity: 1;
