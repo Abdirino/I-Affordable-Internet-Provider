@@ -147,7 +147,7 @@ form textarea {
 @media (max-width: 1200px) {
   .form {
     flex-wrap: wrap;
-    padding: 1.6rem 0.2rem;
+    /* padding: 1.6rem 0.2rem; */
   }
 }
 @media (max-width: 640px) {

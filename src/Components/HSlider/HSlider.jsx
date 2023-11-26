@@ -29,7 +29,7 @@ const HSlider = () => {
             <div className="H-slider1">
               <div className="homeS">
                 <Reveal>
-                  <p>Best-in-Class Internet Service Provider</p>
+                  <p>💠 Best-in-Class Internet Service Provider</p>
                 </Reveal>
                 <Reveal>
                   <h1>For All Your Internet Needs</h1>
@@ -38,13 +38,15 @@ const HSlider = () => {
                   <h1>And High Connectivity.</h1>
                 </Reveal>
                 <div className="perks">
-                  <p>
-                    Experience seamless connectivity tailored just for you! Dive
-                    into a world where streaming, working, and playing are a
-                    lag-free delight with our standard speedy internet packages,
-                    ensuring a swift and smooth experience for all your online
-                    activities.
-                  </p>
+                  <Reveal>
+                    <p>
+                      Experience seamless connectivity tailored just for you!
+                      Dive into a world where streaming, working, and playing
+                      are a lag-free delight with our standard speedy internet
+                      packages, ensuring a swift and smooth experience for all
+                      your online activities.
+                    </p>
+                  </Reveal>
                   {/* <ul>
                     <Reveal>
                       <li>💠 Top Quality Service With Affordable Pricing</li>
@@ -59,10 +61,14 @@ const HSlider = () => {
                 </div>
                 <div className="home-links">
                   <Reveal>
-                    <button className="button">Start Now</button>
+                    <Link to="/contact">
+                      <button className="button">Start Now</button>
+                    </Link>
                   </Reveal>
                   <Reveal>
-                    <span className="home-video"><i class="fa-solid fa-play"></i>WATCH VIDEO</span>
+                    <span className="home-video">
+                      <i class="fa-solid fa-play"></i>WATCH VIDEO
+                    </span>
                   </Reveal>
                 </div>
               </div>
