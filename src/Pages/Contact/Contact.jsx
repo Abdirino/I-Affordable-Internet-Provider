@@ -139,7 +139,7 @@ const Contact = () => {
               <ToastContainer />
             </form>
             <div className="location">
-              <h1>Real <span>Time</span> Location</h1>
+              {/* <h1>Real <span>Time</span> Location</h1> */}
               <div className="l-image">
                 <iframe
                   className="iframe"

@@ -63,11 +63,13 @@
 
 .form {
   padding: 1.8rem 0.8rem;
+  background: rgba(7, 68, 223, 0.1);
+  border-radius: 4px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.7rem;
 }
 .form form {
   width: 1000px !important;
@@ -109,6 +111,7 @@ form textarea {
 }
 .form form .button{
   margin: 10px 0;
+  width: fit-content;
 }
 
 .location .l-image {
@@ -121,7 +124,7 @@ form textarea {
 }
 .l-image .iframe{
   width: 600px;
-  height: 586px;
+  height: 656px;
   object-fit: cover;
 }
 
