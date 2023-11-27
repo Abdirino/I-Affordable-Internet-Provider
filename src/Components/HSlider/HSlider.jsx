@@ -42,9 +42,8 @@ const HSlider = () => {
                     <p>
                       Experience seamless connectivity tailored just for you!
                       Dive into a world where streaming, working, and playing
-                      are a lag-free delight with our standard speedy internet
-                      packages, ensuring a swift and smooth experience for all
-                      your online activities.
+                      are a lag-free delight with our standard swift internet
+                      packages.
                     </p>
                   </Reveal>
                   {/* <ul>

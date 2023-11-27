@@ -25,7 +25,7 @@ const Reason = () => {
             <div className="re">
               <h2>
                 {counter && (
-                  <CountUp start={0} end={500} delay={0} duration={2} />
+                  <CountUp start={0} end={800} delay={0} duration={2} />
                 )}
                 +
               </h2>
