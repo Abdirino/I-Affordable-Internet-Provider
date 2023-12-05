@@ -51,7 +51,12 @@ const Footer = () => {
               >
                 <li>FAQs</li>
               </Link>
-              <li>Privacy Policy</li>
+              <Link
+                to="/privacy"
+                style={{ color: "inherit", textDecoration: "inherit" }}
+              >
+                <li>Privacy Policy</li>
+              </Link>
               <Link
                 to="/Package"
                 style={{ color: "inherit", textDecoration: "inherit" }}
@@ -73,16 +78,16 @@ const Footer = () => {
                 <li>IAffordableAP Services</li>
               </Link>
               <Link
-                to="/Package"
+                to="/about"
                 style={{ color: "inherit", textDecoration: "inherit" }}
               >
-                <li>Packages</li>
+                <li>About Us</li>
               </Link>
               <Link
                 to="/contact"
                 style={{ color: "inherit", textDecoration: "inherit" }}
               >
-                <li>Contact Us</li>
+                <li>Contact</li>
               </Link>
             </section>
           </Reveal>

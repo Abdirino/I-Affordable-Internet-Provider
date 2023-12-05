@@ -1,0 +1,20 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+.privacy{
+    padding: 3rem 0;
+}
+.privacy h1{
+    font-size: 39px;
+    padding: 1.7rem;
+    background: rgba(3, 56, 191, 0.2);
+}
+.policies{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    text-align: start;
+    background: rgba(128, 128, 128, 0.2);
+}

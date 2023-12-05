@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import ScrollToTop from "./ScrollToTop";
 import Loader from "./Components/Loader/Loader";
+import Privacy from "./Pages/PrivacyPolicy/Privacy";
 
 const Home = lazy(() => import("./Pages/Home/Home")); 
 const About = lazy(() => import("./Pages/About/About"));
@@ -42,6 +43,7 @@ function App() {
               <Route path="/service2" element={<Service2 />} />
               <Route path="/service3" element={<Service3 />} />
               <Route path="/FAQs" element={<FAQs />} />
+              <Route path="/privacy" element={<Privacy />} />
             </Routes>
           </Suspense>
         </BrowserRouter>
