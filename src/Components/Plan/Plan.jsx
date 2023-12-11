@@ -32,7 +32,7 @@ const Plan = () => {
               <div className="p-detail">
                 <li>Free Installation</li>
                 <li>
-                  Upto <span>5Mbps</span> Download Speed
+                  Upto <span>10Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
                 <li>Unlimited Bandwidth</li>
@@ -67,7 +67,7 @@ const Plan = () => {
               <div className="p-detail">
                 <li>Free Installation</li>
                 <li>
-                  Upto <span>10Mbps</span> Download Speed
+                  Upto <span>15Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
                 <li>Unlimited Bandwidth</li>
@@ -132,7 +132,7 @@ const Plan = () => {
               <div className="p-detail">
                 <li>Free Installation</li>
                 <li>
-                  Upto <span>50Mbps</span> Download Speed
+                  Upto <span>100Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
                 <li>

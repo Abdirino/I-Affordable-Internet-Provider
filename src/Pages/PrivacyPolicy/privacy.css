@@ -8,13 +8,15 @@
 .privacy h1{
     font-size: 39px;
     padding: 1.7rem;
-    background: rgba(3, 56, 191, 0.2);
+    background: rgba(3, 56, 191, 0.12);
 }
 .policies{
     padding: 2rem 1rem;
+    margin: 2rem 6rem;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    font-size: 1.2rem;
+    gap: 3.5rem;
     text-align: start;
     background: rgba(128, 128, 128, 0.2);
 }
