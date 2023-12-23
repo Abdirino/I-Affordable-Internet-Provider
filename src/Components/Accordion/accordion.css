@@ -11,7 +11,7 @@
 .acc-head {
   background: rgba(2, 38, 129, 0.7);
   border-radius: 3px;
-  padding: 10px;
+  padding: 1rem 10px;
   cursor: pointer;
 }
 .acc-head .container {
@@ -28,11 +28,12 @@
   cursor: pointer;
 }
 .acc-head span i {
-  font-size: 25px;
+  font-size: 17px;
 }
 
 .acc-content {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  transition: 0.1s;
   border-radius: 0 0 3px 3px;
   height: 0;
   opacity: 0;

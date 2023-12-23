@@ -20,7 +20,7 @@ const Accordion = ({
               <span>
                 <i
                   className={
-                    active === title ? "fa fa-caret-up" : "fa fa-caret-down"
+                    active === title ? "fa-solid fa-minus" : "fa-solid fa-plus"
                   }
                 ></i>
               </span>

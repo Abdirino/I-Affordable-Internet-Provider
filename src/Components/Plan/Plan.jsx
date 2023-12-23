@@ -35,7 +35,7 @@ const Plan = () => {
                   Upto <span>10Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
-                <li>Unlimited Bandwidth</li>
+                <li>Made for 1-4 devices</li>
                 <li>
                   <span>Basic</span> Attachments
                 </li>
@@ -70,9 +70,9 @@ const Plan = () => {
                   Upto <span>15Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
-                <li>Unlimited Bandwidth</li>
+                <li>Made for 4-8 devices</li>
                 <li>
-                  <span>Basic</span> Attachments
+                  Continual TV <span>Streaming</span>
                 </li>
               </div>
 
@@ -139,14 +139,14 @@ const Plan = () => {
                   CCTV &<span> VOIP</span> Access
                 </li>
                 <li>
-                  Uninterrupted <span>Conference</span> Streaming
+                  Continues <span>Conference</span> Broadcast
                 </li>
               </div>
 
               <div className="price">
                 <div className="money">
                   <p>Ksh</p>
-                  <h1>Inquire Price</h1>
+                  <h1>Inquire</h1>
                 </div>
                 <p>/Monthly</p>
               </div>

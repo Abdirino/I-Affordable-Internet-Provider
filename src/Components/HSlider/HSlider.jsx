@@ -7,7 +7,6 @@ import Slider from "react-slick";
 
 import { Link } from "react-router-dom";
 import Reveal from "../Reveal/Reveal";
-import homeIMG from "../../Images/iAffordableHome1.webp";
 
 const HSlider = () => {
   const settings = {
@@ -29,7 +28,9 @@ const HSlider = () => {
             <div className="H-slider1">
               <div className="homeS">
                 <Reveal>
-                  <p>💠 Best-in-Class Internet Service Provider</p>
+                  <p>
+                  <i class="fa-solid fa-wifi"></i>
+                     Affordable Internet Access Point ISP</p>
                 </Reveal>
                 <Reveal>
                   <h1>For All Your Internet Needs</h1>
@@ -40,27 +41,19 @@ const HSlider = () => {
                 <div className="perks">
                   <Reveal>
                     <p>
-                      Experience seamless connectivity tailored just for you!
+                      Experience seamless connectivity tailored just for you.
                       Dive into a world where streaming, working, and playing
                       are a lag-free delight with our standard swift internet
                       packages.
                     </p>
                   </Reveal>
-                  {/* <ul>
-                    <Reveal>
-                      <li>💠 Top Quality Service With Affordable Pricing</li>
-                    </Reveal>
-                    <Reveal>
-                      <li>💠 Live Video Streaming With Ultra Fast Speed</li>
-                    </Reveal>
-                    <Reveal>
-                      <li>💠 Exclusive Priority Customer Care</li>
-                    </Reveal>
-                  </ul> */}
+                  <Reveal>
+                    <h2>Ksh 2500<span>/month</span></h2>
+                  </Reveal>
                 </div>
                 <div className="home-links">
                   <Reveal>
-                    <Link to="/contact">
+                    <Link to="/package">
                       <button className="button">Start Now</button>
                     </Link>
                   </Reveal>
@@ -71,6 +64,7 @@ const HSlider = () => {
                   </Reveal>
                 </div>
               </div>
+
             </div>
           </div>
 

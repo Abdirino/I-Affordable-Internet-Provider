@@ -5,7 +5,7 @@
   transition: 0.4s ease;
 }
 .H-slider1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(../../Images/iAffordableHome1.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -33,41 +33,57 @@
 .homeS {
   display: flex;
   justify-content: center;
-  align-items: start;
   flex-direction: column;
   color: whitesmoke;
-  text-align: start;
 }
+
 .homeS p {
   font-size: 19px;
   padding: 15px 10px;
   font-weight: bold;
 }
+.homeS p i{
+  color: #7ab3f8;
+  padding-right: 6px;
+}
 .homeS h1 {
   padding: 0 10px;
-  font-size: 54px;
+  font-size: 49px;
   width: 950px;
+}
+.homeS h2{
+  color: #7ab3f8;
+  padding: 4px 10px;
+  font-size: 39px;
+}
+.homeS h2 span{
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
 }
 .homeS .button {
   margin: 25px 10px !important;
 }
 .perks{
-  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .homeS .perks p {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-  /* width: 700px; */
+  width: 790px;
   font-size: 15px;
-  text-align: start;
   padding: 21px 0 21px 10px;
-  font-weight: lighter;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 .home-links {
   display: flex;
-  gap: 0.2rem 1rem;
+  gap: 0.6rem;
   align-items: center;
+  justify-content: center;
 }
 .home-links .home-video {
   padding: 0.9em;
@@ -94,11 +110,14 @@
 }
 @media (min-width: 1600px) {
   .homeS h1 {
-    font-size: 92px;
+    font-size: 81px;
     width: 1350px;
   }
   .homeS p {
     font-size: 27px;
+  }
+  .perks p{
+    font-size: 18px;
   }
 }
 
@@ -132,12 +151,12 @@
     font-size: 24px;
     width: auto !important;
   }
-  .perks {
-    width: 340px;
+  .homeS h2{
+    font-size: 21px;
   }
-  .perks p{
-    font-size: 10px;
-    /* padding: 17px 0 1rem 10px; */
+  .homeS .perks p{
+    font-size: 14px;
+    width: 360px;
   }
 }
 

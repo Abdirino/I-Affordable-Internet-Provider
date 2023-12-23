@@ -32,14 +32,20 @@ const Privacy = () => {
               further notification between the parties shall be required.
             </p>
             <p>
-              <span>Affordable Internet Access Point</span> Shall provide
-              Service covered us per the application for the transmission od
-              Data traffic.
+              4. Unless the parties otherwise agree in writing 
+              <span>Affordable Internet Access Point</span> shall bill customer monthly
+              for service provided within the Month. No further notification what so ever
+              between the parties shall be required. As all services provided anytime during
+              the Month will be billed on a periodic basis.
             </p>
             <p>
-              <span>Affordable Internet Access Point</span> Shall provide
-              Service covered us per the application for the transmission od
-              Data traffic.
+              5. In the event of early termination, customer shall pay <span>Affordable Internet Access Point</span>
+              monthly recurring charges that would have become due for each monthof the un-expired
+              portion(if any) of the current service term.
+            </p>
+            <p>
+              6. This specific terms and conditions will be in force from the activation date
+              and will remain enforce for period defined in the section 2 of this application.
             </p>
           </div>
         </div>

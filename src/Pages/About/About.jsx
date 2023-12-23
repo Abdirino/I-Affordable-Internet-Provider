@@ -24,8 +24,8 @@ const About = () => {
             </Reveal>
             <Reveal>
               <h1>
-                Elevate Your <span>Digital</span> Experience:{" "}
-                <span>IAffordableNet</span>, Where Speed Meets{" "}
+                Elevate Your <span>Digital</span> Experience with
+                <span> IAffordableNet</span> : Where Speed Meets{" "}
                 <span>Innovation.</span>
               </h1>
             </Reveal>

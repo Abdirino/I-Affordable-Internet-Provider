@@ -12,11 +12,17 @@
 }
 .policies{
     padding: 2rem 1rem;
-    margin: 2rem 6rem;
+    margin: 2rem 4rem;
     display: flex;
     flex-direction: column;
     font-size: 1.2rem;
     gap: 3.5rem;
     text-align: start;
     background: rgba(128, 128, 128, 0.2);
+}
+
+@media(max-width: 900px){
+    .policies{
+        margin: 1rem;
+    }
 }

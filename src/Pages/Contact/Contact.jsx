@@ -6,7 +6,6 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import LocationIMG from "../../Images/IAffordable Location.png";
 import Background from "../../Components/Background/Background";
 import { Partytown } from "@builder.io/partytown/react";
 import Reveal from "../../Components/Reveal/Reveal";
