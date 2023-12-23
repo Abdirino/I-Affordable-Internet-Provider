@@ -50,11 +50,11 @@ const Service3 = () => {
               </p>
             </Reveal>
             <Reveal>
-              <i>
+              <span>
                 This exclusive access to resources offers numerous advantages,
                 making dedicated servers a preferred choice for businesses and
                 individuals with specific hosting requirements.
-              </i>
+              </span>
             </Reveal>
             <Reveal>
               <ul>

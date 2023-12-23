@@ -51,13 +51,13 @@ const Service2 = () => {
               </p>
             </Reveal>
             <Reveal>
-              <i>
+              <span>
                 Our team of skilled technicians will handle everything to ensure
                 a seamless and hassle-free experience for you. We'll take care
                 of installing the necessary equipment, configuring your network,
                 and ensuring that your internet connection is up and running
                 smoothly.
-              </i>
+              </span>
             </Reveal>
             <Reveal>
               <ul>

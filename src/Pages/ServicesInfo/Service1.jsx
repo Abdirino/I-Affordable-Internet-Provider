@@ -49,11 +49,11 @@ const Service1 = () => {
               </p>
             </Reveal>
             <Reveal>
-              <i>
+              <span>
                 We offer Satellite Internet which Utilizes satellites in space
                 to transmit data to and from a dish installed at the user's
                 location, making it accessible even in remote areas.
-              </i>
+              </span>
             </Reveal>
             <Reveal>
               <ul>
