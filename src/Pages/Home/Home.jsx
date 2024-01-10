@@ -7,6 +7,7 @@ import Plan from '../../Components/Plan/Plan'
 import Advert from '../../Components/Advert/Advert'
 import Quizzes from '../../Components/Quizzes/Quizzes'
 import { Partytown } from '@builder.io/partytown/react'
+import Testimonial from '../../Components/Testimonial/Testimonial'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Plan />
       <Quizzes />
       <Advert />
+      <Testimonial />
       <Footer />
     </>
   )
