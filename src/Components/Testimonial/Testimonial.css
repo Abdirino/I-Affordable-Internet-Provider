@@ -13,8 +13,8 @@
   background-color: #e3f2fd;
   padding-top: 2rem;
 }
-.test-container h1{
-    font-size: 39px;
+.test-container h1 {
+  font-size: 39px;
 }
 .testimonial {
   position: relative;
@@ -33,7 +33,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  row-gap: 30px;
+  row-gap: 21px;
 }
 .slide p {
   padding: 0 160px;
@@ -52,8 +52,8 @@
   align-items: center;
 }
 .details .name {
-  font-size: 15px;
-  /* padding: 10px 0; */
+  font-size: 17px;
+  padding: 10px 0;
   font-weight: 600;
   color: #333;
 }
@@ -63,7 +63,12 @@
   color: #333;
 }
 
-
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
-    margin: 20px;
+@media (max-width: 550px) {
+  .slide p {
+    padding: 0 40px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next{
+    display: none;
+  }
 }

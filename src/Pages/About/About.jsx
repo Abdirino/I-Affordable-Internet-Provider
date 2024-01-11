@@ -9,6 +9,7 @@ import Background from "../../Components/Background/Background";
 import Reveal from "../../Components/Reveal/Reveal";
 import { Partytown } from "@builder.io/partytown/react";
 import Quizzes from "../../Components/Quizzes/Quizzes";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const About = () => {
   return (
@@ -129,6 +130,7 @@ const About = () => {
         </video>
       </div> */}
       <Quizzes />
+      <Testimonial />
       <Footer />
     </>
   );
