@@ -48,7 +48,7 @@ const Navbar = () => {
               >
                 <div className="icon">
                   <i class="fa-solid fa-circle-info"></i>
-                  <p>About</p>
+                  <p>About us</p>
                 </div>
               </NavLink>
             </li>

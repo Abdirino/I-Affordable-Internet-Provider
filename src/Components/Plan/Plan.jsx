@@ -11,14 +11,14 @@ const Plan = () => {
         <div className="head">
           <Reveal>
             <h1>
-              Choose <span>Your</span> Best <span>Plans</span>.
+              Our <span>Monthly</span> Internet Plans For <span>You</span>.
             </h1>
           </Reveal>
           <Reveal>
             <p>
-              IAffordableNet has always been dedicated to providing fast, reliable and
-              affordable internet services to our customers, becoming a trusted
-              name in the ISP industry in Kenya.
+              Affordable ISP - The Fast, Reliable , Locally Available Internet
+              Service Provider. For Speed of up to 100Mbps, Connect your
+              Business and Home to super-fast internet speeds.
             </p>
           </Reveal>
         </div>
@@ -30,12 +30,12 @@ const Plan = () => {
                 <p>For Individual User</p>
               </div>
               <div className="p-detail">
-                <li>Free Installation</li>
+                <li>Moderate Web Browsing</li>
                 <li>
-                  Upto <span>10Mbps</span> Download Speed
+                  Upto <span>2Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
-                <li>Made for 1-4 devices</li>
+                <li>Youtubing and E-Mails</li>
                 <li>
                   <span>Basic</span> Attachments
                 </li>
@@ -44,7 +44,7 @@ const Plan = () => {
               <div className="price">
                 <div className="money">
                   <p>Ksh</p>
-                  <h1>2,500</h1>
+                  <h1>1,500</h1>
                 </div>
                 <p>/Monthly</p>
               </div>
@@ -67,12 +67,44 @@ const Plan = () => {
               <div className="p-detail">
                 <li>Free Installation</li>
                 <li>
-                  Upto <span>15Mbps</span> Download Speed
+                  Upto <span>5Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
-                <li>Made for 4-8 devices</li>
+                <li>Social-Media Browsing</li>
                 <li>
                   Continual TV <span>Streaming</span>
+                </li>
+              </div>
+
+              <div className="price">
+                <div className="money">
+                  <p>Ksh</p>
+                  <h1>2,500</h1>
+                </div>
+                <p>/Monthly</p>
+              </div>
+              <div className="order">
+                <Link to="/contact">
+                  <button className="button">Order This Plan</button>
+                </Link>
+              </div>
+            </div>
+          </Reveal>
+          <Reveal>
+            <div className="pack">
+              <div className="p-head">
+                <h2>Business Plan</h2>
+                <p>For Businesses</p>
+              </div>
+              <div className="p-detail">
+                <li>Fast Web Browsing</li>
+                <li>
+                  Upto <span>10Mbps</span> Download Speed
+                </li>
+                <li>Unlimited Data Usage</li>
+                <li>HD Video Streaming</li>
+                <li>
+                  Clear <span>CCTV</span> Access
                 </li>
               </div>
 
@@ -90,28 +122,29 @@ const Plan = () => {
               </div>
             </div>
           </Reveal>
+
           <Reveal>
             <div className="pack">
               <div className="p-head">
-                <h2>Business Plan</h2>
-                <p>For Small Business</p>
+                <h2>Premium Plan</h2>
+                <p>For Businesses</p>
               </div>
               <div className="p-detail">
-                <li>Free Installation</li>
+                <li>Fast File Sharing</li>
                 <li>
-                  Upto <span>20Mbps</span> Download Speed
+                  Upto <span>15Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
-                <li>Unlimited Bandwidth</li>
+                <li>4K Video Streaming</li>
                 <li>
-                  Clear <span>CCTV</span> Access
+                  Video <span>Conference</span>
                 </li>
               </div>
 
               <div className="price">
                 <div className="money">
                   <p>Ksh</p>
-                  <h1>7,500</h1>
+                  <h1>7,000</h1>
                 </div>
                 <p>/Monthly</p>
               </div>
@@ -130,7 +163,7 @@ const Plan = () => {
                 <p>For Corporate User</p>
               </div>
               <div className="p-detail">
-                <li>Free Installation</li>
+                <li>Tailored to meet your Needs</li>
                 <li>
                   Upto <span>100Mbps</span> Download Speed
                 </li>

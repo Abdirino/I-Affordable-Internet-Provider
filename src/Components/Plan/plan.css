@@ -28,6 +28,7 @@
   font-weight: lighter;
 }
 
+
 .plans .plan {
   display: flex;
   justify-content: center;
@@ -65,6 +66,7 @@
   font-size: 14px;
 }
 .p-detail li span {
+  font-size: 15px;
   color: #0339c1;
 }
 .p-detail li::marker {
