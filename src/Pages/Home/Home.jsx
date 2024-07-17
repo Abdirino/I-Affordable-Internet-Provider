@@ -4,10 +4,10 @@ import Navbar from '../../Components/Navbar/Navbar'
 import HSlider from '../../Components/HSlider/HSlider'
 import Footer from '../../Components/Footer/Footer'
 import Plan from '../../Components/Plan/Plan'
-import Advert from '../../Components/Advert/Advert'
+// import Advert from '../../Components/Advert/Advert'
 import Quizzes from '../../Components/Quizzes/Quizzes'
 import { Partytown } from '@builder.io/partytown/react'
-import Testimonial from '../../Components/Testimonial/Testimonial'
+// import Testimonial from '../../Components/Testimonial/Testimonial'
 
 const Home = () => {
   return (
@@ -17,8 +17,8 @@ const Home = () => {
       <HSlider />
       <Plan />
       <Quizzes />
-      <Advert />
-      <Testimonial />
+      {/* <Advert /> */}
+      {/* <Testimonial /> */}
       <Footer />
     </>
   )

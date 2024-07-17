@@ -6,7 +6,7 @@ import Reveal from "../Reveal/Reveal";
 
 const Quizzes = () => {
   const [active, setActive] = useState(false);
-  const handleActive = () => setActive(!active);
+  // const handleActive = () => setActive(!active);
 
   return (
     <>
@@ -89,6 +89,11 @@ const Quizzes = () => {
               title="What is the average internet speed during peak hours?"
               active={active}
               setActive={setActive}
+              answer="According to our data, Wednesday through Friday have higher download speeds than the other days, at 113 Mbps.
+              Wednesday also boasts the best upload speed, at 43 Mbps. With just 4 Mbps difference between the slowest
+              day of the week (Sunday) and the fastest (Friday), the variation is not extreme. But if you are already dealing with slower 
+              home internet, it might be worth rearranging your schedule to take advantage of those extra 4 Mbps."
+              email="For support send message to support@iaffordablenetsp.co.ke"
             />
             {/* <Accordion
               title="How soon can I get my internet/wifi installed?"

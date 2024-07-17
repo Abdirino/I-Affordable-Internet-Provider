@@ -26,16 +26,16 @@ const Plan = () => {
           <Reveal>
             <div className="pack">
               <div className="p-head">
-                <h2>Individual Plan</h2>
-                <p>For Individual User</p>
+                <h2>Home Package</h2>
+                <p>For Family</p>
               </div>
               <div className="p-detail">
                 <li>Moderate Web Browsing</li>
                 <li>
-                  Upto <span>2Mbps</span> Download Speed
+                  Upto <span>10Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
-                <li>Youtubing and E-Mails</li>
+                <li>YouTube and E-Mails</li>
                 <li>
                   <span>Basic</span> Attachments
                 </li>
@@ -44,7 +44,7 @@ const Plan = () => {
               <div className="price">
                 <div className="money">
                   <p>Ksh</p>
-                  <h1>1,500</h1>
+                  <h1>2,000</h1>
                 </div>
                 <p>/Monthly</p>
               </div>
@@ -61,13 +61,13 @@ const Plan = () => {
               <p>Most Popular Package</p>
             </div> */}
               <div className="p-head">
-                <h2>Home Plan</h2>
-                <p>For Family User</p>
+                <h2>Business Package 1</h2>
+                <p>For Businesses</p>
               </div>
               <div className="p-detail">
                 <li>Free Installation</li>
                 <li>
-                  Upto <span>5Mbps</span> Download Speed
+                  Upto <span>12Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
                 <li>Social-Media Browsing</li>
@@ -79,7 +79,7 @@ const Plan = () => {
               <div className="price">
                 <div className="money">
                   <p>Ksh</p>
-                  <h1>2,500</h1>
+                  <h1>3,500</h1>
                 </div>
                 <p>/Monthly</p>
               </div>
@@ -93,13 +93,13 @@ const Plan = () => {
           <Reveal>
             <div className="pack">
               <div className="p-head">
-                <h2>Business Plan</h2>
+                <h2>Business Package 2</h2>
                 <p>For Businesses</p>
               </div>
               <div className="p-detail">
                 <li>Fast Web Browsing</li>
                 <li>
-                  Upto <span>10Mbps</span> Download Speed
+                  Upto <span>15Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
                 <li>HD Video Streaming</li>
@@ -126,13 +126,13 @@ const Plan = () => {
           <Reveal>
             <div className="pack">
               <div className="p-head">
-                <h2>Premium Plan</h2>
-                <p>For Businesses</p>
+                <h2>Premium Package</h2>
+                <p>For Companies</p>
               </div>
               <div className="p-detail">
                 <li>Fast File Sharing</li>
                 <li>
-                  Upto <span>15Mbps</span> Download Speed
+                  Upto <span>20Mbps</span> Download Speed
                 </li>
                 <li>Unlimited Data Usage</li>
                 <li>4K Video Streaming</li>
@@ -144,7 +144,7 @@ const Plan = () => {
               <div className="price">
                 <div className="money">
                   <p>Ksh</p>
-                  <h1>7,000</h1>
+                  <h1>7,500</h1>
                 </div>
                 <p>/Monthly</p>
               </div>
@@ -160,7 +160,7 @@ const Plan = () => {
             <div className="pack">
               <div className="p-head">
                 <h2>Corporate Plan</h2>
-                <p>For Corporate User</p>
+                <p>For Corporations</p>
               </div>
               <div className="p-detail">
                 <li>Tailored to meet your Needs</li>
