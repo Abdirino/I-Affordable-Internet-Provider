@@ -44,7 +44,7 @@ const Plan = () => {
               <div className="price">
                 <div className="money">
                   <p>Ksh</p>
-                  <h1>2,000</h1>
+                  <h1>2,500</h1>
                 </div>
                 <p>/Monthly</p>
               </div>
@@ -251,6 +251,9 @@ const Plan = () => {
             </div>
           </Reveal>
         </div>
+        {/* <div className="include-img">
+          <img src="../../Images/AboutSec.webp" alt="" />
+        </div> */}
       </div>
       <Reason />
     </>
